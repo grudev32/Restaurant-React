@@ -27,7 +27,7 @@
 /* REGISTER START */
 
 .register-route .Registeration{
-    background-image: url("Background.jpg");
+    background-image: url("/src/imgs/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

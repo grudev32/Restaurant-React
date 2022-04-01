@@ -4,9 +4,9 @@ const Register = () => {
     return (
         <section className="register-route">
             <div className="Registeration">
-                <img className="Logo" src="Logo.png" alt="Logo"/>
-                <img className="Piza" src="Piza.png" alt="Piza"/>
-                <img className="Pasta" src="Pasta.png" alt="Pasta"/>
+                <img className="Logo" src="" alt="Logo"/>
+                <img className="Piza" src="" alt="Piza"/>
+                <img className="Pasta" src="" alt="Pasta"/>
 
                 <p className="paragraph1">That's from our glad to be a part of our family</p>
                 <form className="Input">
