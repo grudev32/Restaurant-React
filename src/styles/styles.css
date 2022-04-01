@@ -1,5 +1,8 @@
 /* -------------------------- */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /* GLOBAL START */
 
 /* GLOBAL END */
@@ -26,12 +29,13 @@
 
 /* REGISTER START */
 
-.register-route .Registeration{
+.register-route{
     background-image: url("/src/imgs/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    overflow: hidden;
     font-family: Corbel;
 }
 
