@@ -26,6 +26,81 @@
 
 /* REGISTER START */
 
+.register-route .Registeration{
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Corbel;
+}
+
+.register-route .Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    margin-top: 30px;
+}
+
+.register-route .Piza{
+    position:fixed; 
+	top: -80px;
+	right: -80px;
+    width: 175px;
+}
+
+.register-route .Pasta{
+    position:fixed; 
+	bottom:-50px;
+	left: -80px;
+    width: 250px;
+}
+
+.register-route .paragraph1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #F5F5F5;
+}
+
+.register-route input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    outline: none;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.register-route .input {
+    width: 400px;
+    height: 25px;
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: #434343;
+}
+
+.register-route .Button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #F5F5F5;
+    background-color: #8CA206;
+}
+
+.register-route .form2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: #F5F5F5;
+    margin-top: 80px;
+}
+
 /* REGISTER END */
 
 /* -------------------------- */
