@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./global/header";
+import Footer from "./global/footer";
 
 const Home = () => {
     return (
@@ -69,6 +70,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </section>
     );
 };
