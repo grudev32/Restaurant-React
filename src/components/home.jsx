@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./global/header";
 import PizzaImage from "../resources/images/kindpng_5396179.png";
 import PastaImage from "../resources/images/PngItem_1147129.png";
+import Footer from "./global/footer";
 
 const Home = () => {
   return (
@@ -21,11 +22,10 @@ const Home = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
             distinctio nesciunt consequatur inventore vitae, cum, veniam totam
             maxime nobis quaerat reiciendis quam quibusdam eaque fugiat enim
-            optio ipsum illum quo?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-            distinctio nesciunt consequatur inventore vitae, cum, veniam totam
-            maxime nobis quaerat reiciendis quam quibusdam eaque fugiat enim
-            optio ipsum illum quo?
+            optio ipsum illum quo? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Minima distinctio nesciunt consequatur inventore
+            vitae, cum, veniam totam maxime nobis quaerat reiciendis quam
+            quibusdam eaque fugiat enim optio ipsum illum quo?
           </p>
         </div>
       </div>
@@ -55,25 +55,23 @@ const Home = () => {
               ipsum dolor sit amet consectetur adipisicing elit. Commodi debitis
               placeat earum error soluta, accusantium atque, voluptate ipsum
               quos ut consequatur itaque, vitae voluptates quam vero. Omnis
-              cumque unde voluptatum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              molestiae quia fugiat perferendis autem, expedita quas ullam
-              necessitatibus dignissimos iusto sunt reprehenderit, at repellat
-              natus exercitationem laboriosam ipsam praesentium saepe. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Commodi debitis
-              placeat earum error soluta, accusantium atque, voluptate ipsum
-              quos ut consequatur itaque, vitae voluptates quam vero. Omnis
-              cumque unde voluptatum.
+              cumque unde voluptatum. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nobis molestiae quia fugiat perferendis autem,
+              expedita quas ullam necessitatibus dignissimos iusto sunt
+              reprehenderit, at repellat natus exercitationem laboriosam ipsam
+              praesentium saepe. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Commodi debitis placeat earum error soluta,
+              accusantium atque, voluptate ipsum quos ut consequatur itaque,
+              vitae voluptates quam vero. Omnis cumque unde voluptatum.
             </p>
             <p className="desc-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
               harum dicta et nulla vitae deleniti commodi nobis vel tempore
               consectetur doloribus rem, consequatur quos alias obcaecati at
-              rerum velit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
-              harum dicta et nulla vitae deleniti commodi nobis vel tempore
-              consectetur doloribus rem, consequatur quos alias obcaecati at
-              rerum velit.
+              rerum velit. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Hic totam harum dicta et nulla vitae deleniti commodi nobis
+              vel tempore consectetur doloribus rem, consequatur quos alias
+              obcaecati at rerum velit.
             </p>
           </div>
         </div>
@@ -136,6 +134,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 };
