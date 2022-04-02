@@ -7,6 +7,30 @@ const Home = () => {
         <section className="home-route">
             <Header />
 
+            <div className="home-subscription">
+                <div className="subscription-wrapper">
+                    <img
+                        src="https://images.deliveryhero.io/image/talabat/Menuitems/Mix_Chicken_Pizza_637654106929826677.jpg"
+                        alt="subscription-background"
+                        className="subscription-background"
+                    />
+                    <h1 className="subscription-title">Subscribe Now</h1>
+                    <p className="subscription-text">
+                        To know all our daily offers
+                    </p>
+                    <form className="subscription-form">
+                        <input
+                            type="text"
+                            placeholder="Email Address"
+                            className="subscription-input"
+                        />
+                        <button className="subscription-button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+
             <div className="home-services">
                 <div className="services-wrapper">
                     <h1 className="services-title">Our Services</h1>
