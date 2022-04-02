@@ -1,5 +1,5 @@
 /* -------------------------- */
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -29,8 +29,8 @@
 
 /* REGISTER START */
 
-.register-route{
-    background-image: url("/src/imgs/Background.jpg");
+.register-route {
+    background-image: url("/src//resources/backgrounds/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -39,7 +39,7 @@
     font-family: Corbel;
 }
 
-.register-route .Logo{
+.register-route .Logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,29 +47,29 @@
     margin-top: 30px;
 }
 
-.register-route .Piza{
-    position:fixed; 
-	top: -80px;
-	right: -80px;
+.register-route .Pizza {
+    position: fixed;
+    top: -80px;
+    right: -80px;
     width: 175px;
 }
 
-.register-route .Pasta{
-    position:fixed; 
-	bottom:-50px;
-	left: -80px;
+.register-route .Pasta {
+    position: fixed;
+    bottom: -50px;
+    left: -80px;
     width: 250px;
 }
 
-.register-route .paragraph1{
+.register-route .paragraph1 {
     text-align: center;
     font-size: 30px;
     font-weight: 500;
     margin-top: 10px;
-    color: #F5F5F5;
+    color: #f5f5f5;
 }
 
-.register-route input{
+.register-route input {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -88,20 +88,20 @@
     color: #434343;
 }
 
-.register-route .Button{
+.register-route .Button {
     width: 200px;
     height: 50px;
     text-align: center;
     font-size: 25px;
-    color: #F5F5F5;
-    background-color: #8CA206;
+    color: #f5f5f5;
+    background-color: #8ca206;
 }
 
-.register-route .form2{
+.register-route .form2 {
     text-align: center;
     font-size: 30px;
     font-weight: 100;
-    color: #F5F5F5;
+    color: #f5f5f5;
     margin-top: 80px;
 }
 
@@ -133,7 +133,6 @@
 
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 910px) {
-
 }
 
 /* Medium devices (desktops, 992px and up) */
