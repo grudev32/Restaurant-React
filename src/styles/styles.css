@@ -2,11 +2,48 @@
 
 /* GLOBAL START */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* GLOBAL END */
 
 /* -------------------------- */
 
+/* HEADER START */
+.header-section .header-wrapper {
+    background-color: #434343;
+    display: flex;
+    padding: 20px 250px;
+    justify-content: space-between;
+}
+
+.header-wrapper .header-logo {
+    width: 150px;
+}
+
+.header-navigation {
+    margin: auto 0;
+}
+
+.header-navigation .header-route {
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 20px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* HEADER END */
+
+/* -------------------------- */
+
 /* HOME START */
+
+.home-section {
+    background-color: #f5f5f5;
+}
 
 /* HOME END */
 
@@ -54,7 +91,6 @@
 
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 910px) {
-
 }
 
 /* Medium devices (desktops, 992px and up) */
