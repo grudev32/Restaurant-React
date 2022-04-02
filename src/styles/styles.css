@@ -55,6 +55,7 @@ body{
     padding: 20px 0;
     height: fit-content;
     position: relative;
+    margin: 50px 0;
 }
 
 .home-special .pizza-image{
@@ -62,7 +63,8 @@ body{
     filter: blur(2px);
     -webkit-filter: blur(2px);
     position: absolute;
-    left: -300px;
+    left: -200px;
+    top: -20px;
 }
 
 .home-special .pasta-image{
@@ -70,27 +72,73 @@ body{
     filter: blur(2px);
     -webkit-filter: blur(2px);
     position:absolute;
-    right: -300px;
-    bottom: -250px;
+    right: -200px;
+    bottom: -150px;
 }
 
 .special-text{
-    width: 500px;
+    width: 700px;
     margin: 0 auto;
     color: #434343;
 }
 
 .special-text .special-title{
-    font-size: 50px;
+    font-size: 70px;
 }
 .special-text .special-description{
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 10px;
     font-weight: lighter;
 }
 
+.home-pesto .pesto-image{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+
+.pesto-image .pesto-sauce-img{
+    width: 1550px;
+    position: relative;
+    top: -100px;
+    margin: 0 auto;
+    opacity: 40%;
+}
+
 .home-pesto .pesto-sauce{
+    position: absolute;
+    z-index: 1;
+    left: 250px;
+    top: 600px;
+}
+
+.pesto-sauce .pesto-title{
+    color:#f5f5f5;
+    font-size: 90px;
     
+}
+
+.pesto-sauce .pesto{
+    color:#f5f5f5;
+    font-size: 160px;
+}
+
+.home-pesto .pesto-desc{
+    width: 100%;
+    background-color: #434343;
+    font-weight: lighter;
+}
+
+.pesto-desc .desc{
+    color: #f5f5f5;
+    font-size: 25px;
+    text-align: justify;
+    padding: 50px 0;
+}
+.pesto-desc .desc-2{
+    margin-top: 20px;
 }
 
 .home-subscription .subscription-wrapper {

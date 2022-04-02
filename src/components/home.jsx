@@ -6,11 +6,11 @@ import PastaImage from "../resources/images/PngItem_1147129.png";
 
 const Home = () => {
   return (
-    <section className="home-route container">
+    <section className="home-route">
       <Header />
       {/* <h1>Home Page</h1> */}
 
-      <div className="home-special">
+      <div className="home-special container">
         <img src={PizzaImage} alt="Pizza-Image" className="pizza-image" />
         <img src={PastaImage} alt="Pasta-Image" className="pasta-image" />
 
@@ -22,22 +22,60 @@ const Home = () => {
             distinctio nesciunt consequatur inventore vitae, cum, veniam totam
             maxime nobis quaerat reiciendis quam quibusdam eaque fugiat enim
             optio ipsum illum quo?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+            distinctio nesciunt consequatur inventore vitae, cum, veniam totam
+            maxime nobis quaerat reiciendis quam quibusdam eaque fugiat enim
+            optio ipsum illum quo?
           </p>
         </div>
       </div>
 
-      <div className="pesto-sauce">
-        <div className="pesto-title">
-          <h1 className="pesto-title">
-            What is<span className="pesto">Pesto Sauce</span>
-          </h1>
+      <div className="home-pesto">
+        <div className="pesto-sauce">
+          <h1 className="pesto-title">What is</h1>
+          <h1 className="pesto">Pesto Sauce</h1>
+        </div>
+        <div className="pesto-image">
           <img
             src={
               "https://www.simplyrecipes.com/thmb/A0W7431YIrdX2dTAEhaya5wOxus=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__08__Fresh-Basil-Pesto-LEAD-2-d990e7900183450dbddb69628bd8a160.jpg"
             }
             alt="Pesto-Sauce"
-            className="pesto-sauce"
+            className="pesto-sauce-img"
           />
+        </div>
+
+        <div className="pesto-desc">
+          <div className="desc container">
+            <p className="desc-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              molestiae quia fugiat perferendis autem, expedita quas ullam
+              necessitatibus dignissimos iusto sunt reprehenderit, at repellat
+              natus exercitationem laboriosam ipsam praesentium saepe. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Commodi debitis
+              placeat earum error soluta, accusantium atque, voluptate ipsum
+              quos ut consequatur itaque, vitae voluptates quam vero. Omnis
+              cumque unde voluptatum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              molestiae quia fugiat perferendis autem, expedita quas ullam
+              necessitatibus dignissimos iusto sunt reprehenderit, at repellat
+              natus exercitationem laboriosam ipsam praesentium saepe. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Commodi debitis
+              placeat earum error soluta, accusantium atque, voluptate ipsum
+              quos ut consequatur itaque, vitae voluptates quam vero. Omnis
+              cumque unde voluptatum.
+            </p>
+            <p className="desc-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
+              harum dicta et nulla vitae deleniti commodi nobis vel tempore
+              consectetur doloribus rem, consequatur quos alias obcaecati at
+              rerum velit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam
+              harum dicta et nulla vitae deleniti commodi nobis vel tempore
+              consectetur doloribus rem, consequatur quos alias obcaecati at
+              rerum velit.
+            </p>
+          </div>
         </div>
       </div>
       <div className="home-subscription">
