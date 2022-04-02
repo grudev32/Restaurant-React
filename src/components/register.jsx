@@ -3,10 +3,16 @@ import React from "react";
 import LogoImage from "../resources/images/Logo.png";
 import PizzaImage from "../resources/images/Pizza.png";
 import PastaImage from "../resources/images/Pasta.png";
+import BackgroundImage from "../resources/backgrounds/Background.jpg";
 
 const Register = () => {
     return (
         <section className="register-route">
+            <img
+                src={BackgroundImage}
+                alt="register-background"
+                className="register-background"
+            />
             <div className="Registration">
                 <img className="Logo" src={LogoImage} alt="Logo" />
                 <img className="Pizza" src={PizzaImage} alt="Pizza" />
