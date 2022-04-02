@@ -6,7 +6,13 @@
     margin: 0;
     padding: 0;
 }
-
+.container{
+    margin: 0 100px;
+}
+body{
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
 /* GLOBAL END */
 
 /* -------------------------- */
@@ -41,8 +47,46 @@
 
 /* HOME START */
 
-.home-section {
+.home-route {
     background-color: #f5f5f5;
+}
+
+.home-route .home-special{
+    padding: 20px 0;
+    height: fit-content;
+    position: relative;
+}
+
+.home-special .pizza-image{
+    width: 300px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    position: absolute;
+    left: -300px;
+}
+
+.home-special .pasta-image{
+    width: 350px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    position:absolute;
+    right: -300px;
+    bottom: -250px;
+}
+
+.special-text{
+    width: 500px;
+    margin: 0 auto;
+    color: #434343;
+}
+
+.special-text .special-title{
+    font-size: 50px;
+}
+.special-text .special-description{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: lighter;
 }
 
 /* HOME END */
