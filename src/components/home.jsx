@@ -1,17 +1,50 @@
 import React from "react";
 
-import Header from "./global/header";
+// import Header from "./global/header";
+import Footer from "./global/footer";
+
+import HomeSlider from "./home/home-slider";
+
 import PizzaImage from "../resources/images/kindpng_5396179.png";
 import PastaImage from "../resources/images/PngItem_1147129.png";
-import Footer from "./global/footer";
+
+const slides = [
+  {
+    city: "Pizza",
+    country: "Italian",
+    img: "https://images.unsplash.com/photo-1561350111-7daa4f284bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+  },
+  {
+    city: "Pasta",
+    country: "Italian",
+    img: "https://c0.wallpaperflare.com/preview/124/905/130/bowl-chopsticks-close-up-cuisine.jpg",
+  },
+  {
+    city: "Awesome",
+    country: "Fork",
+    img: "https://c1.wallpaperflare.com/preview/714/652/925/spaghetti-pasta-noodles-italian.jpg",
+  },
+  {
+    city: "Pasta",
+    country: "Italian",
+    img: "https://cdn.pixabay.com/photo/2018/07/09/09/34/pizza-3525673_960_720.jpg",
+  },
+  {
+    city: "Hot",
+    country: "Pepper",
+    img: "https://c4.wallpaperflare.com/wallpaper/501/768/988/fire-food-chilli-peppers-wallpaper-preview.jpg",
+  },
+];
 
 const Home = () => {
   return (
     <section className="home-route">
-      <Header />
-      {/* <h1>Home Page</h1> */}
+      {/* - [PROBLEM] Slider conflict header */}
+      {/* - [SOLUTION] make it display none and display after scroll 500px down */}
+      {/* <Header /> */}
+      <HomeSlider className="home-slider" slides={slides} />
 
-      <div className="try-pizza-section">
+      {/* <div className="try-pizza-section">
         <div className="wooden-background">
           <div className="try-pizza-text">
             <h1 className="try">Would you try our</h1>
@@ -37,11 +70,11 @@ const Home = () => {
             className="wooden-background_image"
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="home-special container">
-        <img src={PizzaImage} alt="Pizza-Image" className="pizza-image" />
-        <img src={PastaImage} alt="Pasta-Image" className="pasta-image" />
+        <img src={PizzaImage} alt="Pizza" className="pizza-image" />
+        <img src={PastaImage} alt="Pasta" className="pasta-image" />
 
         <div className="special-text">
           <h1 className="special-title">Why we are special ..?</h1>
@@ -58,6 +91,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* - [PROBLEM] Slider conflict pesto sauce title */}
       <div className="home-pesto">
         <div className="pesto-image">
           <div className="pesto-sauce">
@@ -116,6 +150,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="home-subscription">
         <div className="subscription-wrapper">
           <div className="subscription-section">
@@ -127,7 +162,9 @@ const Home = () => {
                 placeholder="Email Address"
                 className="subscription-input"
               />
-              <button className="subscription-button btn btn-2">Subscribe</button>
+              <button className="subscription-button btn btn-2">
+                Subscribe
+              </button>
             </form>
           </div>
           <img
