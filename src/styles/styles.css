@@ -131,15 +131,17 @@ body{
 }
 
 .social-container .social-icon {
-    font-size: 24px;
+    font-size: 30px;
     color: #f5f5f5;
     background-color: #8CA206;
-    border-radius: 30px;
+    border-radius: 25px;
     padding: 10px;
-    background-color: #8ca206;
-    border-radius: 10px;
-    padding: 8px;
     cursor: pointer;
+}
+
+.social-container .social-icon:hover{
+    background-color: #52710B;
+    transition: 0.5s;
 }
 
 .footer-wrapper .copyright-wrapper {
@@ -202,7 +204,7 @@ body{
     -webkit-filter: blur(2px);
     position: absolute;
     left: -200px;
-    top: -150px;
+    top: -100px;
 }
 
 .home-special .pasta-image {
@@ -221,7 +223,7 @@ body{
 }
 
 .special-text .special-title {
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom:50px ;
 }
 .special-text .special-description {
@@ -312,6 +314,62 @@ body{
 
 /* -------------------------------------------------- */
 
+.home-route .offers-section{
+    padding: 65px 0;
+}
+
+.offers-section .offers-section-title{
+    font-size: 80px;
+    color: #8ca206;
+    text-align: center;
+    padding-bottom: 120px ;
+}
+
+.offers-section .offers{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.offers .offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
+    margin: 0 100px;
+}
+
+.offer .offer-img{
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.offer .offer-text{
+    text-align: center;
+    color: #434343;
+}
+
+.offer-text .offer-title{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.offer-title .two{
+    color: #8ca206;
+}
+
+.offer-text .old-price{
+    margin: 20px 0;
+    text-decoration: line-through;
+}
+
+.offer-text .new-price{
+    font-size: 50px;
+    color: #8ca206;
+}
+
+/* -------------------------------------------------- */
 
 .home-route .home-subscription{
     position: relative;

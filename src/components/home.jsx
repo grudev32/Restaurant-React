@@ -44,34 +44,6 @@ const Home = () => {
       {/* <Header /> */}
       <HomeSlider className="home-slider" slides={slides} />
 
-      {/* <div className="try-pizza-section">
-        <div className="wooden-background">
-          <div className="try-pizza-text">
-            <h1 className="try">Would you try our</h1>
-            <h1 className="pizza">Pesto Pizza ..?!</h1>
-            <a href="../components/login.jsx" className="login-btn btn btn-1">
-              Login
-            </a>
-            <a
-              href="../components/pesto-menu.jsx"
-              className="see-menu-btn btn btn-3"
-            >
-              See menu
-            </a>
-          </div>
-          <img
-            src={PizzaImage}
-            alt="Pesto-Pizza-Image"
-            className="pesto-pizza-img"
-          />
-          <img
-            src="https://static.vecteezy.com/system/resources/previews/002/124/301/large_2x/old-dark-brown-wooden-texture-background-free-photo.jpg"
-            alt="Wooden-Background_Image"
-            className="wooden-background_image"
-          />
-        </div>
-      </div> */}
-
       <div className="home-special container">
         <img src={PizzaImage} alt="Pizza" className="pizza-image" />
         <img src={PastaImage} alt="Pasta" className="pasta-image" />
@@ -147,6 +119,40 @@ const Home = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div className="offers-section">
+        <h1 className="offers-section-title">New offers</h1>
+        <div className="offers">
+          <div className="pizza-offer offer">
+            <img
+              src={PizzaImage}
+              alt="pizza-img"
+              className="pizza-offer-img offer-img"
+            />
+            <div className="offer-text">
+              <h1 className="pizza-title offer-title">
+                <span className="two">2</span> Pizza
+              </h1>
+              <h1 className="old-price">40$</h1>
+              <h1 className="new-price">30$</h1>
+            </div>
+          </div>
+          <div className="pasta-offer offer">
+            <img
+              src={PastaImage}
+              alt="pasta-img"
+              className="pasta-offer-img offer-img"
+            />
+            <div className="offer-text">
+              <h1 className="pasta-title offer-title">
+                <span className="two">2</span> Pasta
+              </h1>
+              <h1 className="old-price">50$</h1>
+              <h1 className="new-price">40$</h1>
+            </div>
           </div>
         </div>
       </div>
