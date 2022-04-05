@@ -7,12 +7,42 @@
     padding: 0;
 }
 .container{
-    margin: 0 100px;
+    margin: 0 150px;
 }
 body{
     background-color: #f5f5f5;
     overflow-x: hidden;
 }
+:focus{
+    outline: none;
+}
+.btn{
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 35px;
+    margin: 20px;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.btn-1{
+    background-color: #8CA206;
+}
+.btn-2{
+    background-color: #434343;
+}
+
+.btn-1:hover{
+    background-color: #52710B;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    background-color: #232323;
+    transition: 0.5s;
+}
+
+
 /* GLOBAL END */
 
 /* -------------------------- */
@@ -90,8 +120,8 @@ body{
     font-size: 24px;
     color: #f5f5f5;
     background-color: #8CA206;
-    border-radius: 10px;
-    padding: 8px;
+    border-radius: 30px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -112,11 +142,41 @@ body{
     background-color: #f5f5f5;
 }
 
+.home-route .try-pizza-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.try-pizza-section .wooden-background{
+    position: relative;
+}
+
+.wooden-background .try-pizza-text{
+    position: absolute;
+}
+
+.wooden-background .wooden-background_image{
+    width: 1220px;
+}
+
+.wooden-background .pesto-pizza-img{
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    left: -100px;
+    top: 200px;
+}
+
+
+/* -------------------------------------------------- */
+
+
 .home-route .home-special{
     padding: 20px 0;
     height: fit-content;
     position: relative;
-    margin: 50px 0;
+    margin: 120px 0;
 }
 
 .home-special .pizza-image{
@@ -125,7 +185,7 @@ body{
     -webkit-filter: blur(2px);
     position: absolute;
     left: -200px;
-    top: -20px;
+    top: -150px;
 }
 
 .home-special .pasta-image{
@@ -134,10 +194,10 @@ body{
     -webkit-filter: blur(2px);
     position:absolute;
     right: -200px;
-    bottom: -150px;
+    bottom: -100px;
 }
 
-.special-text{
+.home-special .special-text{
     width: 700px;
     margin: 0 auto;
     color: #434343;
@@ -145,12 +205,18 @@ body{
 
 .special-text .special-title{
     font-size: 70px;
+    margin-bottom:50px ;
 }
 .special-text .special-description{
     font-size: 20px;
     margin-top: 10px;
     font-weight: lighter;
+    line-height: 40px;
 }
+
+
+/* -------------------------------------------------- */
+
 
 .home-pesto .pesto-image{
     width: 100%;
@@ -161,18 +227,18 @@ body{
 }
 
 .pesto-image .pesto-sauce-img{
-    width: 1550px;
+    width: 100%;
     position: relative;
     top: -100px;
     margin: 0 auto;
     opacity: 40%;
 }
 
-.home-pesto .pesto-sauce{
+.pesto-image .pesto-sauce{
     position: absolute;
-    z-index: 1;
     left: 250px;
-    top: 600px;
+    top: 150px;
+    z-index: 1;
 }
 
 .pesto-sauce .pesto-title{
@@ -190,16 +256,50 @@ body{
     width: 100%;
     background-color: #434343;
     font-weight: lighter;
+    padding: 50px 0;
 }
 
 .pesto-desc .desc{
     color: #f5f5f5;
     font-size: 25px;
     text-align: justify;
-    padding: 50px 0;
 }
 .pesto-desc .desc-2{
     margin-top: 20px;
+}
+
+.pesto-desc .make-pesto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+}
+
+.make-pesto .how-to{
+    color: #C5D201;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.make-pesto .pesto{
+    color: #C5D201;
+    font-size: 90px;
+}
+
+.make-pesto .pesto-video{
+    width: 852px;
+    height: 480px;
+    margin: 20px;
+}
+
+
+/* -------------------------------------------------- */
+
+
+.home-route .home-subscription{
+    position: relative;
+    background-color: #8CA206;
 }
 
 .home-subscription .subscription-wrapper {
@@ -211,15 +311,48 @@ body{
     padding: 20px 0;
     height: 35vh;
     overflow: hidden;
+    height: 450px;
 }
 
-.home-subscription .subscription-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -10;
+.subscription-wrapper .subscription-section{
+    z-index: 1;
+    color: #f5f5f5;
+    text-align: center;
 }
+
+.subscription-wrapper .subscription-background{
+    position: absolute;
+    width: 100%;
+    opacity: 25%;
+}
+
+.subscription-section .subscription-title{
+    font-size: 60px;
+    margin: 10px;
+}
+
+.subscription-section .subscription-text{
+    font-size: 40px;
+}
+
+.subscription-section .subscription-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.subscription-form .subscription-input{
+    border: none;
+    padding: 10px 25px ;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 15px;
+    border-radius: 35px;
+    width: 800px;
+    height: 40px;
+}
+
 
 /* -------------------------------------------------- */
 

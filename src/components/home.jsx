@@ -11,6 +11,34 @@ const Home = () => {
       <Header />
       {/* <h1>Home Page</h1> */}
 
+      <div className="try-pizza-section">
+        <div className="wooden-background">
+          <div className="try-pizza-text">
+            <h1 className="try">Would you try our</h1>
+            <h1 className="pizza">Pesto Pizza ..?!</h1>
+            <a href="../components/login.jsx" className="login-btn btn btn-1">
+              Login
+            </a>
+            <a
+              href="../components/pesto-menu.jsx"
+              className="see-menu-btn btn btn-3"
+            >
+              See menu
+            </a>
+          </div>
+          <img
+            src={PizzaImage}
+            alt="Pesto-Pizza-Image"
+            className="pesto-pizza-img"
+          />
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/002/124/301/large_2x/old-dark-brown-wooden-texture-background-free-photo.jpg"
+            alt="Wooden-Background_Image"
+            className="wooden-background_image"
+          />
+        </div>
+      </div>
+
       <div className="home-special container">
         <img src={PizzaImage} alt="Pizza-Image" className="pizza-image" />
         <img src={PastaImage} alt="Pasta-Image" className="pasta-image" />
@@ -31,11 +59,11 @@ const Home = () => {
       </div>
 
       <div className="home-pesto">
-        <div className="pesto-sauce">
-          <h1 className="pesto-title">What is</h1>
-          <h1 className="pesto">Pesto Sauce</h1>
-        </div>
         <div className="pesto-image">
+          <div className="pesto-sauce">
+            <h1 className="pesto-title">What is</h1>
+            <h1 className="pesto">Pesto Sauce</h1>
+          </div>
           <img
             src={
               "https://www.simplyrecipes.com/thmb/A0W7431YIrdX2dTAEhaya5wOxus=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__08__Fresh-Basil-Pesto-LEAD-2-d990e7900183450dbddb69628bd8a160.jpg"
@@ -74,25 +102,39 @@ const Home = () => {
               obcaecati at rerum velit.
             </p>
           </div>
+          <div className="make-pesto">
+            <h1 className="how-to">How to make</h1>
+            <h1 className="pesto">Pesto Sauce</h1>
+            <iframe
+              className="pesto-video"
+              src="https://www.youtube.com/embed/kNgtVLlNmDg?start=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="home-subscription">
         <div className="subscription-wrapper">
+          <div className="subscription-section">
+            <h1 className="subscription-title">Subscribe Now</h1>
+            <p className="subscription-text">To know all our daily offers</p>
+            <form className="subscription-form">
+              <input
+                type="text"
+                placeholder="Email Address"
+                className="subscription-input"
+              />
+              <button className="subscription-button btn btn-2">Subscribe</button>
+            </form>
+          </div>
           <img
             src="https://images.deliveryhero.io/image/talabat/Menuitems/Mix_Chicken_Pizza_637654106929826677.jpg"
             alt="subscription-background"
             className="subscription-background"
           />
-          <h1 className="subscription-title">Subscribe Now</h1>
-          <p className="subscription-text">To know all our daily offers</p>
-          <form className="subscription-form">
-            <input
-              type="text"
-              placeholder="Email Address"
-              className="subscription-input"
-            />
-            <button className="subscription-button">Subscribe</button>
-          </form>
         </div>
       </div>
 
