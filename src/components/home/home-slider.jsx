@@ -58,14 +58,14 @@ const HomeSlider = (props) => {
                             "s--active": activeSlide === index,
                             "s--prev": prevSlide === index,
                         })}
-                        key={slide.city}
+                        key={slide.subTitle}
                     >
                         <div className="slider-slide-content">
                             <h3 className="slider-slide-subheading">
-                                {slide.country || slide.city}
+                                {slide.title || slide.subTitle}
                             </h3>
                             <h2 className="slider-slide-heading">
-                                {slide.city.split("").map((l) => (
+                                {slide.subTitle.split("").map((l) => (
                                     <span>{l}</span>
                                 ))}
                             </h2>
@@ -82,7 +82,7 @@ const HomeSlider = (props) => {
                                     <div
                                         className="slider-slide-part-inner"
                                         style={{
-                                            backgroundImage: `url(${slide.img})`,
+                                            backgroundImage: `url(${slide.image})`,
                                         }}
                                     />
                                 </div>
