@@ -84,11 +84,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="copyright-wrapper">
-                    <div class="copyright">
+                    <div className="copyright">
                         <span>Copyright ©2022 All rights reserved | </span>
                         <span>Developed By: Cactus Team</span>
                     </div>
-                    <div class="information">
+                    <div className="information">
                         <span>System Programming Project | </span>
                         <span>Dr. Nader Mahmoud | </span>
                         <span>Eng. Beshoy Samy</span>

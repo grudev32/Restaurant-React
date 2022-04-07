@@ -58,15 +58,15 @@ const HomeSlider = (props) => {
                             "s--active": activeSlide === index,
                             "s--prev": prevSlide === index,
                         })}
-                        key={slide.subTitle}
+                        key={index + slide.subTitle}
                     >
                         <div className="slider-slide-content">
                             <h3 className="slider-slide-subheading">
                                 {slide.title || slide.subTitle}
                             </h3>
                             <h2 className="slider-slide-heading">
-                                {slide.subTitle.split("").map((l) => (
-                                    <span>{l}</span>
+                                {slide.subTitle.split("").map((l, i) => (
+                                    <span key={i}>{l}</span>
                                 ))}
                             </h2>
                             <NavLink
