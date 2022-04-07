@@ -1,11 +1,15 @@
 import React from "react";
 
+import { useHistory } from "react-router-dom";
+
 import LogoImage from "../resources/images/Logo.png";
 import PizzaImage from "../resources/images/Pizza.png";
 import PastaImage from "../resources/images/Pasta.png";
 import BackgroundImage from "../resources/backgrounds/Background.jpg";
 
 const Register = () => {
+    const history = useHistory();
+
     return (
         <section className="register-route">
             <img
@@ -14,7 +18,12 @@ const Register = () => {
                 className="register-background"
             />
             <div className="Registration">
-                <img className="Logo" src={LogoImage} alt="Logo" />
+                <img
+                    className="Logo"
+                    src={LogoImage}
+                    alt="Logo"
+                    onClick={() => history.push("/")}
+                />
                 <img className="Pizza" src={PizzaImage} alt="Pizza" />
                 <img className="Pasta" src={PastaImage} alt="Pasta" />
 
@@ -55,7 +64,12 @@ const Register = () => {
 
                 <div className="form2">
                     <p>Are you already a part of our family ..?</p>
-                    <input className="Button" type="submit" value="Log In" />
+                    <input
+                        className="Button"
+                        type="submit"
+                        value="Log In"
+                        onClick={() => history.push("/login")}
+                    />
                     <br />
                 </div>
             </div>
