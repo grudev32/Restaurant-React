@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 
 import classNames from "classnames";
 
@@ -11,6 +11,8 @@ let changeSliderTo = null;
 const SLIDER_CHANGE_TIME = 4000;
 
 const HomeSlider = (props) => {
+    const history = useHistory();
+
     const [prevSlide, setPrevSlide] = useState(-1);
     const [activeSlide, setActiveSlide] = useState(-1);
     const [sliderReady, setSliderReady] = useState(false);
@@ -51,6 +53,12 @@ const HomeSlider = (props) => {
     return (
         <section className={classNames("slider", { "s--ready": sliderReady })}>
             <img src={LogoImage} className="slider-logo" alt="pesto-logo" />
+            <button
+                className="slider-logging"
+                onClick={() => history.push("/login")}
+            >
+                Login
+            </button>
             <div className="slider-slides">
                 {props.slides.map((slide, index) => (
                     <div
