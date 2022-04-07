@@ -13,18 +13,18 @@
     margin: 0;
     padding: 0;
 }
-.container{
+.container {
     margin: 0 150px;
 }
-body{
+body {
     background-color: #f5f5f5;
     overflow-x: hidden;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
-:focus{
+:focus {
     outline: none;
 }
-.btn{
+.btn {
     border: none;
     padding: 20px 40px;
     font-size: 20px;
@@ -34,23 +34,21 @@ body{
     color: #f5f5f5;
 }
 
-.btn-1{
-    background-color: #8CA206;
+.btn-1 {
+    background-color: #8ca206;
 }
-.btn-2{
+.btn-2 {
     background-color: #434343;
 }
 
-.btn-1:hover{
-    background-color: #52710B;
+.btn-1:hover {
+    background-color: #52710b;
     transition: 0.5s;
 }
-.btn-2:hover{
+.btn-2:hover {
     background-color: #232323;
     transition: 0.5s;
 }
-
-
 
 .container {
     margin: 0 100px;
@@ -60,17 +58,69 @@ body{
 
 /* -------------------------- */
 
-/* HEADER START */
-.header-section .header-wrapper {
-    background-color: #434343;
+/* BACK TO TOP START */
+#back-to-top {
     position: fixed;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    right: -35px;
+    bottom: 50px;
+    opacity: 0;
+    cursor: pointer;
+    background: #52710b;
+    transition: 1s all;
+    z-index: 999;
+}
+
+#back-to-top .arrow-upward {
+    font-size: 28px;
+    color: #f5f5f5;
+    padding: 10px;
+}
+
+#back-to-top:hover {
+    background: #8ca206;
+    color: #f5f5f5;
+    right: 0px;
+}
+/* BACK TO TOP END */
+
+/* -------------------------- */
+
+/* HEADER START */
+.header-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block !important;
+    transition: all 0.5s ease;
+    animation: smoothScroll 0.6s forwards;
+    z-index: 999;
+}
+
+.header-section {
+    position: fixed;
+    width: 100%;
+    background-color: #434343;
+}
+
+.home-header {
+    background-color: #434343;
+    display: none;
+}
+
+.header-wrapper {
+    height: 9vh;
     display: flex;
-    padding: 20px 250px;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
 }
 
 .header-wrapper .header-logo {
     width: 150px;
+    cursor: pointer;
 }
 
 .header-navigation {
@@ -133,14 +183,14 @@ body{
 .social-container .social-icon {
     font-size: 30px;
     color: #f5f5f5;
-    background-color: #8CA206;
+    background-color: #8ca206;
     border-radius: 25px;
     padding: 10px;
     cursor: pointer;
 }
 
-.social-container .social-icon:hover{
-    background-color: #52710B;
+.social-container .social-icon:hover {
+    background-color: #52710b;
     transition: 0.5s;
 }
 
@@ -161,25 +211,25 @@ body{
     background-color: #f5f5f5;
 }
 
-.home-route .try-pizza-section{
+.home-route .try-pizza-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.try-pizza-section .wooden-background{
+.try-pizza-section .wooden-background {
     position: relative;
 }
 
-.wooden-background .try-pizza-text{
+.wooden-background .try-pizza-text {
     position: absolute;
 }
 
-.wooden-background .wooden-background_image{
+.wooden-background .wooden-background_image {
     width: 1220px;
 }
 
-.wooden-background .pesto-pizza-img{
+.wooden-background .pesto-pizza-img {
     width: 600px;
     position: absolute;
     z-index: 1;
@@ -187,11 +237,9 @@ body{
     top: 200px;
 }
 
-
 /* -------------------------------------------------- */
 
-
-.home-route .home-special{
+.home-route .home-special {
     padding: 20px 0;
     height: fit-content;
     position: relative;
@@ -216,7 +264,7 @@ body{
     bottom: -100px;
 }
 
-.home-special .special-text{
+.home-special .special-text {
     width: 700px;
     margin: 0 auto;
     color: #434343;
@@ -224,7 +272,7 @@ body{
 
 .special-text .special-title {
     font-size: 60px;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
 }
 .special-text .special-description {
     font-size: 20px;
@@ -233,11 +281,9 @@ body{
     line-height: 40px;
 }
 
-
 /* -------------------------------------------------- */
 
-
-.home-pesto .pesto-image{
+.home-pesto .pesto-image {
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -245,7 +291,7 @@ body{
     background-color: black;
 }
 
-.pesto-image .pesto-sauce-img{
+.pesto-image .pesto-sauce-img {
     width: 100%;
     position: relative;
     top: -100px;
@@ -253,7 +299,7 @@ body{
     opacity: 40%;
 }
 
-.pesto-image .pesto-sauce{
+.pesto-image .pesto-sauce {
     position: absolute;
     left: 250px;
     top: 150px;
@@ -286,7 +332,7 @@ body{
     margin-top: 20px;
 }
 
-.pesto-desc .make-pesto{
+.pesto-desc .make-pesto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -294,44 +340,43 @@ body{
     padding-top: 45px;
 }
 
-.make-pesto .how-to{
-    color: #C5D201;
+.make-pesto .how-to {
+    color: #c5d201;
     font-weight: lighter;
     font-size: 60px;
 }
 
-.make-pesto .pesto{
-    color: #C5D201;
+.make-pesto .pesto {
+    color: #c5d201;
     font-size: 90px;
 }
 
-.make-pesto .pesto-video{
+.make-pesto .pesto-video {
     width: 852px;
     height: 480px;
     margin: 20px;
 }
 
-
 /* -------------------------------------------------- */
 
-.home-route .offers-section{
+.home-route .offers-section {
     padding: 65px 0;
 }
 
-.offers-section .offers-section-title{
+.offers-section .offers-section-title {
     font-size: 80px;
     color: #8ca206;
     text-align: center;
-    padding-bottom: 120px ;
+    padding-bottom: 120px;
 }
 
-.offers-section .offers{
+.offers-section .offers {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.offers .offer{
+.offers .offer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -340,40 +385,40 @@ body{
     margin: 0 100px;
 }
 
-.offer .offer-img{
+.offer .offer-img {
     width: 350px;
     margin-bottom: 50px;
 }
 
-.offer .offer-text{
+.offer .offer-text {
     text-align: center;
     color: #434343;
 }
 
-.offer-text .offer-title{
+.offer-text .offer-title {
     font-size: 50px;
     font-weight: lighter;
 }
 
-.offer-title .two{
+.offer-title .two {
     color: #8ca206;
 }
 
-.offer-text .old-price{
+.offer-text .old-price {
     margin: 20px 0;
     text-decoration: line-through;
 }
 
-.offer-text .new-price{
+.offer-text .new-price {
     font-size: 50px;
     color: #8ca206;
 }
 
 /* -------------------------------------------------- */
 
-.home-route .home-subscription{
+.home-route .home-subscription {
     position: relative;
-    background-color: #8CA206;
+    background-color: #8ca206;
 }
 
 .home-subscription .subscription-wrapper {
@@ -388,37 +433,37 @@ body{
     height: 450px;
 }
 
-.subscription-wrapper .subscription-section{
+.subscription-wrapper .subscription-section {
     z-index: 1;
     color: #f5f5f5;
     text-align: center;
 }
 
-.subscription-wrapper .subscription-background{
+.subscription-wrapper .subscription-background {
     position: absolute;
     width: 100%;
     opacity: 25%;
 }
 
-.subscription-section .subscription-title{
+.subscription-section .subscription-title {
     font-size: 60px;
     margin: 10px;
 }
 
-.subscription-section .subscription-text{
+.subscription-section .subscription-text {
     font-size: 40px;
 }
 
-.subscription-section .subscription-form{
+.subscription-section .subscription-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px 0;
 }
 
-.subscription-form .subscription-input{
+.subscription-form .subscription-input {
     border: none;
-    padding: 10px 25px ;
+    padding: 10px 25px;
     font-size: 20px;
     font-weight: lighter;
     margin: 15px;
@@ -426,7 +471,6 @@ body{
     width: 800px;
     height: 40px;
 }
-
 
 /* -------------------------------------------------- */
 
@@ -537,4 +581,16 @@ body{
 }
 /* RESPONSIVE END */
 
+/* -------------------------- */
+/* KEYFRAMES START */
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-142px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* KEYFRAMES END */
 /* -------------------------- */

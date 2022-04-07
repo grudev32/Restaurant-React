@@ -1,7 +1,8 @@
 import React from "react";
 
-// import Header from "./global/header";
+import Header from "./global/header";
 import Footer from "./global/footer";
+import BackToTop from "./global/back-to-top";
 
 import HomeSlider from "./home/home-slider";
 
@@ -39,9 +40,8 @@ const slides = [
 const Home = () => {
     return (
         <section className="home-route">
-            {/* - [PROBLEM] Slider conflict header */}
-            {/* - [SOLUTION] make it display none and display after scroll 500px down */}
-            {/* <Header /> */}
+            <BackToTop />
+            <Header routeClass="home-header" />
             <HomeSlider className="home-slider" slides={slides} />
 
             <div className="home-special container">
@@ -64,7 +64,6 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* - [PROBLEM] Slider conflict pesto sauce title */}
             <div className="home-pesto">
                 <div className="pesto-image">
                     <div className="pesto-sauce">
@@ -121,9 +120,9 @@ const Home = () => {
                             className="pesto-video"
                             src="https://www.youtube.com/embed/kNgtVLlNmDg?start=1"
                             title="YouTube video player"
-                            frameborder="0"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                         ></iframe>
                     </div>
                 </div>
