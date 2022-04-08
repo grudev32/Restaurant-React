@@ -193,7 +193,218 @@
 /* -------------------------- */
 
 /* ABOUT US START */
+/* 
+Name: Walid Salah Waliam
+ID: 220190661
+*/
+.about-route{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 
+.container {
+    width: 1356px;
+    background-color: #8CA206;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+/* start scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* thumb */
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #647400;
+    ;
+}
+/* thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(133, 231, 4);
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #061a0e;
+}
+/* end scroll */
+
+/* start button */
+.Up {
+    width: 8%;
+    height: 10%;
+    font-size: 40px;
+    top: 86%;
+    left: 91%;
+    z-index: 1;
+    display: none;
+    position: fixed;
+    background-color: #647400;
+    border-radius: 25%;
+    border: #061a0e solid 2px;
+}
+/* button on hover */
+.Up:hover {
+    cursor: pointer;
+    color: rgb(133, 231, 4);
+}
+/* end button  */
+
+.part {
+    width: 1356px;
+    height: 630px;
+    position: relative;
+}
+
+.one div.about {
+    background: linear-gradient(161deg, white 50%, transparent 50%);
+    width: 1356px;
+    height: 510px;
+    top: -22px;
+    position: absolute;
+    z-index: 1;
+}
+
+div.about p {
+    color: #434343;
+    font-weight: Bold;
+    font-size: 112px;
+    top: -200px;
+    left: 68px;
+    position: absolute;
+}
+
+.one img {
+    width: 1356px;
+    height: 630px;
+    opacity: .4;
+    top: -115px;
+    position: relative;
+}
+
+.two {
+    background-color: #8CA206;
+    position: relative;
+    top: -162px;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.two p.WhyUs {
+    color: #434343;
+    font-weight: Bold;
+    font-size: 80px;
+    position: relative;
+    top: -172px;
+    margin-top: 55px;
+    margin-left: 70px;
+    width: 400px;
+    display: inline-block;
+}
+
+.two p.FirstParagraph {
+    width: 525px;
+    color: #F5F5F5;
+    margin-top: -40px;
+    margin-left: 54px;
+    font-size: 29px;
+}
+
+.two p.SecondParagraph {
+    width: 610px;
+    color: #F5F5F5;
+    margin-top: -425px;
+    margin-left: 680px;
+    font-size: 29px;
+}
+
+.two p.FirstParagraph::selection,
+.two p.SecondParagraph::selection {
+    background-color: #434343;
+    color: #8CA206;
+}
+
+div.PartThree {
+    margin-top: -290px;
+    width: 1356px;
+    height: 615px;
+    overflow: hidden;
+}
+
+.FirstImage {
+    width: 1356px;
+    height: 615px;
+    opacity: .4;
+    clip-path: polygon(100% 21%, 0 0, 0 100%);
+}
+
+.PartThree p {
+    color: #434343;
+    font-weight: Bold;
+    font-size: 112px;
+    margin-top: -240px;
+    position: relative;
+    margin-left: 670px;
+    left: 700px;
+    top: 10px;
+}
+
+.PartFour {
+    width: 1356px;
+    height: 615px;
+    background-color: #8CA206;
+}
+
+div.cards {
+    width: 1356px;
+    height: 615px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8CA206;
+}
+
+div.card {
+    display: flex;
+    background-color: #43434357;
+    width: calc(81% / 3);
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.card img {
+    width: 370px;
+    height: 330px;
+}
+
+div.name {
+    font-size: 60px;
+}
+
+div.country {
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+div.card.Three div.name {
+    font-size: 50px;
+}
+
+div.PartFive {
+    width: 1356px;
+    height: 615px;
+}
+
+div.PartFive img {
+    width: 1356px;
+    height: 615px;
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+}
 /* ABOUT US END */
 
 /* -------------------------- */
