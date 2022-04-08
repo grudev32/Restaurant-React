@@ -301,6 +301,12 @@ body {
     margin-bottom: -3px;
 }
 
+.Form-2 .form-icon {
+    color: #8CA206;
+    padding-right: 15px;
+    font-size: 34px;
+}
+
 .Container-2 {
     display: flex;
     text-align: center;
