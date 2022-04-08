@@ -1,27 +1,41 @@
 /* -------------------------- */
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
 /* GLOBAL START */
+
 
 /* GLOBAL END */
 
+
 /* -------------------------- */
+
 
 /* HOME START */
 
+
 /* HOME END */
 
+
 /* -------------------------- */
+
 
 /* MENU START */
 
+
 /* MENU END */
+
 
 /* -------------------------- */
 
+
 /* LOGIN START */
+
+
 /*Andrew Nashaat*/
 
 .login-route .register-background {
@@ -97,9 +111,12 @@
     text-align: center;
 }
 
+
 /* LOGIN END */
 
+
 /* -------------------------- */
+
 
 /* REGISTER START */
 
@@ -188,43 +205,245 @@
     margin-top: 40px;
 }
 
+
 /* REGISTER END */
 
+
 /* -------------------------- */
+
 
 /* ABOUT US START */
 
+
 /* ABOUT US END */
 
+
 /* -------------------------- */
+
 
 /* CONTACT US START */
 
+body {
+    margin: 0px;
+}
+
+.Container-1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 204vh;
+    height: 170vh;
+    margin-top: 0PX;
+    margin-left: 0PX;
+    margin: 0;
+    background-color: #434343;
+    background-image: linear-gradient(rgba(67, 67, 67, 1), rgba(67, 67, 67, 0.5)), url(../resources/images/Pasta.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 900px;
+    background-position-x: -250px;
+    background-position-y: 550px;
+}
+
+.Form-1 {
+    display: flex;
+    height: 110vh;
+    margin: 110px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Form-1 .Title h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #8CA206;
+    margin: 50px;
+}
+
+.Form-1 .Head-Text {
+    font-size: 40px;
+    color: #F5F5F5;
+    margin-top: -3px;
+}
+
+.Container-1 .Form-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 100px;
+    border: 1px solid black;
+    background-color: #F5F5F5;
+    width: 600px;
+    font-size: 25px;
+    margin: 80px;
+    margin-bottom: 10px;
+    padding: 60px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Form-2 .lines-form {
+    padding: 40px;
+}
+
+.Form-2 .line-1 {
+    background-color: #8CA206;
+    height: 10px;
+    margin-top: -3px;
+}
+
+.Form-2 .line-2 {
+    background-color: #8CA206;
+    height: 10px;
+    margin-bottom: -3px;
+}
+
+.Form-2 .form-icon {
+    color: #8CA206;
+    padding-right: 15px;
+    font-size: 34px;
+}
+
+.Container-2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 204vh;
+    height: 190vh;
+    margin: 0;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 0.6)), url(../resources/images/Pizza.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+    background-position-x: 1100px;
+}
+
+.Form-3 {
+    display: flex;
+    height: 75vh;
+    width: 75%;
+    margin: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Form-3 .Title h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #8CA206;
+    margin: 30px;
+}
+
+.Form-3 .Head-Text .text-1 {
+    font-size: 35px;
+    color: #434343;
+    margin-top: -13px;
+}
+
+.Form-3 .Head-Text .text-2 {
+    font-size: 35px;
+    color: #C5D201;
+    margin-top: -13px;
+}
+
+.Container-2 .Form-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #434343;
+    width: 600px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.Form-4 .line-1 {
+    background-color: #8CA206;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.Form-4 .line-2 {
+    background-color: #8CA206;
+    height: 10px;
+    margin-bottom: 30px;
+}
+
+.Form-4 .lines-form {
+    padding: 20px 0;
+}
+
+.Form-4 .lines-form div {
+    padding: 10px 0;
+}
+
+.lines-form div input,
+.lines-form div textarea {
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.Form-4 .button {
+    background-color: #8CA206;
+    color: #F5F5F5;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.Form-4 input[type="text"] {
+    height: 35px;
+    width: 375px;
+}
+
+
 /* CONTACT US END */
+
 
 /* -------------------------- */
 
+
 /* RESPONSIVE START */
 
+
 /* Small devices (mobile, 700px and down) */
-@media (max-width: 700px) {
-}
+
+@media (max-width: 700px) {}
+
 
 /* Small devices (tablets, 768px and down) */
-@media (max-width: 768px) {
-}
+
+@media (max-width: 768px) {}
+
 
 /* Medium devices (desktops, 992px and down) */
-@media (max-width: 910px) {
-}
+
+@media (max-width: 910px) {}
+
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
+
+@media (min-width: 992px) {}
+
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+
+@media (min-width: 1200px) {}
+
+
 /* RESPONSIVE END */
+
 
 /* -------------------------- */
