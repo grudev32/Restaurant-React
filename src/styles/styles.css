@@ -1,8 +1,18 @@
 /* -------------------------- */
+@font-face{
+    font-family: corbel;
+    src: url(http://fonts.cdnfonts.com/css/corbel);
+}
+@font-face {
+    font-family: Bell-MT;
+    src: url(//db.onlinewebfonts.com/c/bb25f84423b9515a1d475d02d2de6462?family=Bell+MT);
+}
 * {
     margin: 0;
     padding: 0;
+    font-family: corbel;
 }
+
 /* GLOBAL START */
 ::-webkit-scrollbar {
     display: none;
@@ -16,9 +26,6 @@
     margin: 0;
     padding: 0;
 }
-.container {
-    margin: 0 150px;
-}
 body {
     background-color: #f5f5f5;
     overflow-x: hidden;
@@ -26,6 +33,17 @@ body {
 }
 :focus {
     outline: none;
+}
+.title{
+    font-size: 100px;
+    font-family: Bell-MT;
+}
+.paragraph {
+    width: 1100px;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 auto;    
 }
 .btn {
     border: none;
@@ -51,10 +69,6 @@ body {
 .btn-2:hover {
     background-color: #232323;
     transition: 0.5s;
-}
-
-.container {
-    margin: 0 100px;
 }
 
 /* GLOBAL END */
@@ -268,20 +282,13 @@ body {
 }
 
 .home-special .special-text {
-    width: 700px;
     margin: 0 auto;
     color: #434343;
 }
 
 .special-text .special-title {
-    font-size: 60px;
     margin-bottom: 50px;
-}
-.special-text .special-description {
-    font-size: 20px;
-    margin-top: 10px;
-    font-weight: lighter;
-    line-height: 40px;
+    text-align: center;
 }
 
 /* -------------------------------------------------- */
@@ -328,8 +335,6 @@ body {
 
 .pesto-desc .desc {
     color: #f5f5f5;
-    font-size: 25px;
-    text-align: justify;
 }
 .pesto-desc .desc-2 {
     margin-top: 20px;
@@ -367,7 +372,6 @@ body {
 }
 
 .offers-section .offers-section-title {
-    font-size: 80px;
     color: #8ca206;
     text-align: center;
     padding-bottom: 120px;
@@ -489,7 +493,7 @@ body {
 
 .home-services .services-title {
     padding: 40px 0;
-    font-size: 32px;
+    font-size: 50px;
     color: #f5f5f5;
 }
 
