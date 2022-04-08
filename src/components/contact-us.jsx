@@ -43,7 +43,7 @@ const ContactUs = () => {
           <div class="Form-4">
             <div class="line-1"></div>
             <div class="lines-form">
-              <p class="fname">
+              <div class="fname">
                 <label for="fname"></label>
                 <input
                   type="text"
@@ -51,12 +51,12 @@ const ContactUs = () => {
                   placeholder="FullName"
                   class="fname"
                 />
-              </p>
-              <p class="Email">
+              </div>
+              <div class="Email">
                 <label for="Email"></label>
                 <input type="text" name="Email" placeholder="Email Address" />
-              </p>
-              <p>
+              </div>
+              <div>
                 <textarea
                   name="Opinion"
                   id="Opinion"
@@ -65,7 +65,7 @@ const ContactUs = () => {
                   placeholder="Opinion"
                 ></textarea>
                 <br />
-              </p>
+              </div>
               <input type="button" value="Sign up" class="button" /> <br />
             </div>
             <div class="line-2"></div>
