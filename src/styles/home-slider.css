@@ -36,6 +36,12 @@
     z-index: 12;
 }
 
+.slider .slider-logging:hover{
+    color: #434343;
+    background-color: #f5f5f5;
+    transition: 0.5s;
+}
+
 .slider.s--ready .slider-logo,
 .slider.s--ready .slider-logging {
     transform: translateY(0);
