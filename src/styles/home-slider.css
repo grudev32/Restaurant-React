@@ -1,3 +1,8 @@
+/* 
+Name: Henry Azer
+ID: 220190314
+*/
+
 .slider {
     overflow: hidden;
     position: relative;
@@ -36,7 +41,7 @@
     z-index: 12;
 }
 
-.slider .slider-logging:hover{
+.slider .slider-logging:hover {
     color: #434343;
     background-color: #f5f5f5;
     transition: 0.5s;

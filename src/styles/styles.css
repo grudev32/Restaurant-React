@@ -1,5 +1,5 @@
 /* -------------------------- */
-@font-face{
+@font-face {
     font-family: corbel;
     src: url(http://fonts.cdnfonts.com/css/corbel);
 }
@@ -34,7 +34,7 @@ body {
 :focus {
     outline: none;
 }
-.title{
+.title {
     font-size: 100px;
     font-family: Bell-MT;
 }
@@ -43,7 +43,7 @@ body {
     text-align: justify;
     font-size: 30px;
     font-weight: lighter;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 .btn {
     border: none;
@@ -71,9 +71,7 @@ body {
     transition: 0.5s;
 }
 
-
 /* GLOBAL END */
-
 
 /* -------------------------- */
 
@@ -116,12 +114,21 @@ body {
     transition: all 0.5s ease;
     animation: smoothScroll 0.6s forwards;
     z-index: 999;
+
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .header-section {
     position: fixed;
     width: 100%;
     background-color: #434343;
+    z-index: 999;
+
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .home-header {
@@ -164,6 +171,10 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+
+    box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
 .footer-wrapper .content-wrapper {
@@ -535,192 +546,187 @@ body {
 }
 /* HOME END */
 
-
 /* -------------------------- */
-
 
 /* MENU START */
 .menu-route .menu-title {
-  display: block;
-  height: 700px;
-  background-color: #f5f5f5;
+    display: block;
+    height: 700px;
+    background-color: #f5f5f5;
 }
 .pizza-image {
-  width: 1500px;
-  height: 600px;
-  position: relative;
-  bottom: 1px;
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
-  opacity: 0.4;
+    width: 1500px;
+    height: 600px;
+    position: relative;
+    bottom: 1px;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    opacity: 0.4;
 }
 
 .menu-route {
-  background-color: #434343;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: corbel;
+    background-color: #434343;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: corbel;
 }
 .menu-route .heading {
-  text-align: center;
-  font-size: 100px;
-  color: #434343;
-  font-weight: bold;
-  font-family: Bell MT;
-  margin-bottom: 50px;
+    text-align: center;
+    font-size: 100px;
+    color: #434343;
+    font-weight: bold;
+    font-family: Bell MT;
+    margin-bottom: 50px;
 }
 .menu-route .p {
-  text-align: center;
-  color: #c5d201;
-  font-size: 40px;
-  position: relative;
-  bottom: 50px;
+    text-align: center;
+    color: #c5d201;
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
 }
 .pizza {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 500px 500px;
-  text-align: center;
-  margin-left: 235px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    text-align: center;
+    margin-left: 235px;
 }
 .pasta {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 500px 500px;
-  text-align: center;
-  background-color: #f5f5f5;
-  padding-left: 250px;
-  padding-top: 200px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-left: 250px;
+    padding-top: 200px;
 }
 .menu {
-  color: #f5f5f5;
+    color: #f5f5f5;
 }
 .margherita {
-  width: 200px;
-  height: 200px;
-  clip-path: circle();
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+    margin-top: 20px;
 }
 .marinara {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
 .diavola {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
 .quattro {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
 .carbonara {
-  width: 200px;
-  height: 200px;
-  clip-path: circle();
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+    margin-top: 20px;
 }
 .alfredo {
-  width: 200px;
-  height: 200px;
-  clip-path: circle();
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+    margin-top: 20px;
 }
 .bolognese {
-  width: 200px;
-  height: 200px;
-  clip-path: circle();
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+    margin-top: 20px;
 }
 .arrabbiata {
-  width: 200px;
-  height: 200px;
-  clip-path: circle();
-  margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+    margin-top: 20px;
 }
 .menu-group-pizza {
-  position: relative;
-  bottom: 400px;
-  left: 100px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
 }
 .menu-group-pasta {
-  text-align: right;
-  position: relative;
-  bottom: 100px;
-  right: 100;
+    text-align: right;
+    position: relative;
+    bottom: 100px;
+    right: 100;
 }
 .pasta-image {
-  width: 1500px;
-  height: 600px;
-  opacity: 0.4;
-  clip-path: polygon(0 100%, 100% 0, 100% 100%);
-  position: relative;
-  top: 105px;
-  margin-left: 20px;
+    width: 1500px;
+    height: 600px;
+    opacity: 0.4;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+    position: relative;
+    top: 105px;
+    margin-left: 20px;
 }
 .pasta-menu-item {
-  border: 1px solid #f5f5f5;
-  background-color: #434343;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    border: 1px solid #f5f5f5;
+    background-color: #434343;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .pizza-menu-item {
-  border: 1px solid #f5f5f5;
-  background-color: #434343;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    border: 1px solid #f5f5f5;
+    background-color: #434343;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .menu-group-pizza {
-  font-size: 90px;
-  font-family: Bell MT;
+    font-size: 90px;
+    font-family: Bell MT;
 }
 .menu-group-pasta {
-  font-size: 90px;
-  font-family: Bell MT;
-  position: relative;
-  right: 100px;
+    font-size: 90px;
+    font-family: Bell MT;
+    position: relative;
+    right: 100px;
 }
 .pizza-image-background {
-  background-color: black;
-  width: 1500px;
-  height: 600px;
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
-  position: relative;
-  bottom: 110px;
+    background-color: black;
+    width: 1500px;
+    height: 600px;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    position: relative;
+    bottom: 110px;
 }
 .menu-item-name {
-  font-size: 40px;
+    font-size: 40px;
 }
 .pizza-discreption {
-  font-size: 18px;
+    font-size: 18px;
 }
 .pasta-discreption {
-  font-size: 18px;
+    font-size: 18px;
 }
 .price {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 /* MENU END */
 
-
 /* -------------------------- */
 
-
 /* LOGIN START */
-
 
 /*Andrew Nashaat*/
 
@@ -797,12 +803,9 @@ body {
     text-align: center;
 }
 
-
 /* LOGIN END */
 
-
 /* -------------------------- */
-
 
 /* REGISTER START */
 
@@ -891,29 +894,25 @@ body {
     margin-top: 40px;
 }
 
-
 /* REGISTER END */
 
-
 /* -------------------------- */
-
 
 /* ABOUT US START */
 /* 
 Name: Walid Salah Waliam
 ID: 220190661
 */
-.about-route{
+.container {
+    width: 1356px;
+    margin: 0 auto;
+    background-color: #8ca206;
+    flex-flow: column;
+    display: flex;
     height: 100%;
     justify-content: center;
     display: flex;
-}
-
-.container {
-    width: 1356px;
-    background-color: #8CA206;
-    flex-flow: column;
-    display: flex;
+    flex-direction: column;
 }
 
 /* start scroll */
@@ -925,7 +924,6 @@ ID: 220190661
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background: #647400;
-    ;
 }
 /* thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
@@ -964,13 +962,13 @@ div.about p {
 .one img {
     width: 1356px;
     height: 630px;
-    opacity: .4;
+    opacity: 0.4;
     top: -115px;
     position: relative;
 }
 
 .two {
-    background-color: #8CA206;
+    background-color: #8ca206;
     top: -162px;
     position: relative;
     z-index: 1;
@@ -988,7 +986,7 @@ div.about p {
 
 .two p.FirstParagraph {
     width: 525px;
-    color: #F5F5F5;
+    color: #f5f5f5;
     margin-top: 50px;
     margin-left: 70px;
     font-size: 29px;
@@ -996,7 +994,7 @@ div.about p {
 
 .two p.SecondParagraph {
     width: 610px;
-    color: #F5F5F5;
+    color: #f5f5f5;
     margin-top: -460px;
     margin-left: 680px;
     font-size: 29px;
@@ -1005,7 +1003,7 @@ div.about p {
 .two p.FirstParagraph::selection,
 .two p.SecondParagraph::selection {
     background-color: #434343;
-    color: #8CA206;
+    color: #8ca206;
 }
 
 div.PartThree {
@@ -1017,7 +1015,7 @@ div.PartThree {
 .FirstImage {
     width: 1356px;
     height: 615px;
-    opacity: .4;
+    opacity: 0.4;
     clip-path: polygon(100% 21%, 0 0, 0 100%);
 }
 
@@ -1034,13 +1032,13 @@ div.PartThree {
 .PartFour {
     width: 1356px;
     height: 615px;
-    background-color: #8CA206;
+    background-color: #8ca206;
 }
 
 div.cards {
     width: 1356px;
     height: 615px;
-    background-color: #8CA206;
+    background-color: #8ca206;
     justify-content: space-around;
     display: flex;
 }
@@ -1048,8 +1046,8 @@ div.cards {
 div.card {
     background-color: #43434357;
     width: calc(81% / 3);
-    opacity: .6;
-    transition: transform 1s .1s ;
+    opacity: 0.6;
+    transition: transform 1s 0.1s;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
@@ -1073,10 +1071,10 @@ div.card.Three div.name {
     font-size: 50px;
 }
 
-div.card:hover{
+div.card:hover {
     z-index: 1;
     opacity: 1;
-    transform: scale(.9);
+    transform: scale(0.9);
 }
 
 div.PartFive {
@@ -1092,27 +1090,21 @@ div.PartFive img {
 
 /* ABOUT US END */
 
-
 /* -------------------------- */
 
-
 /* CONTACT US START */
-
-body {
-    margin: 0px;
-}
-
 .Container-1 {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 204vh;
     height: 170vh;
-    margin-top: 0PX;
-    margin-left: 0PX;
     margin: 0;
     background-color: #434343;
-    background-image: linear-gradient(rgba(67, 67, 67, 1), rgba(67, 67, 67, 0.5)), url(../resources/images/Pasta.png);
+    background-image: linear-gradient(
+            rgba(67, 67, 67, 1),
+            rgba(67, 67, 67, 0.5)
+        ),
+        url(../resources/images/Pasta.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 900px;
@@ -1133,13 +1125,13 @@ body {
     display: flex;
     justify-content: center;
     font-size: 60px;
-    color: #8CA206;
+    color: #8ca206;
     margin: 50px;
 }
 
 .Form-1 .Head-Text {
     font-size: 40px;
-    color: #F5F5F5;
+    color: #f5f5f5;
     margin-top: -3px;
 }
 
@@ -1150,7 +1142,7 @@ body {
     justify-content: center;
     line-height: 100px;
     border: 1px solid black;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     width: 600px;
     font-size: 25px;
     margin: 80px;
@@ -1165,19 +1157,19 @@ body {
 }
 
 .Form-2 .line-1 {
-    background-color: #8CA206;
+    background-color: #8ca206;
     height: 10px;
     margin-top: -3px;
 }
 
 .Form-2 .line-2 {
-    background-color: #8CA206;
+    background-color: #8ca206;
     height: 10px;
     margin-bottom: -3px;
 }
 
 .Form-2 .form-icon {
-    color: #8CA206;
+    color: #8ca206;
     padding-right: 15px;
     font-size: 34px;
 }
@@ -1186,11 +1178,14 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 204vh;
     height: 190vh;
     margin: 0;
-    background-color: #F5F5F5;
-    background-image: linear-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 0.6)), url(../resources/images/Pizza.png);
+    background-color: #f5f5f5;
+    background-image: linear-gradient(
+            rgba(245, 245, 245, 1),
+            rgba(245, 245, 245, 0.6)
+        ),
+        url(../resources/images/Pizza.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 700px;
@@ -1211,7 +1206,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 50px;
-    color: #8CA206;
+    color: #8ca206;
     margin: 30px;
 }
 
@@ -1223,7 +1218,7 @@ body {
 
 .Form-3 .Head-Text .text-2 {
     font-size: 35px;
-    color: #C5D201;
+    color: #c5d201;
     margin-top: -13px;
 }
 
@@ -1242,13 +1237,13 @@ body {
 }
 
 .Form-4 .line-1 {
-    background-color: #8CA206;
+    background-color: #8ca206;
     height: 10px;
     margin-top: 30px;
 }
 
 .Form-4 .line-2 {
-    background-color: #8CA206;
+    background-color: #8ca206;
     height: 10px;
     margin-bottom: 30px;
 }
@@ -1269,8 +1264,8 @@ body {
 }
 
 .Form-4 .button {
-    background-color: #8CA206;
-    color: #F5F5F5;
+    background-color: #8ca206;
+    color: #f5f5f5;
     font-size: 30px;
     padding: 5px 10px;
     margin: 10px 0;
@@ -1283,40 +1278,36 @@ body {
     width: 375px;
 }
 
-
 /* CONTACT US END */
-
 
 /* -------------------------- */
 
-
 /* RESPONSIVE START */
-
 
 /* Small devices (mobile, 700px and down) */
 
-@media (max-width: 700px) {}
-
+@media (max-width: 700px) {
+}
 
 /* Small devices (tablets, 768px and down) */
 
-@media (max-width: 768px) {}
-
+@media (max-width: 768px) {
+}
 
 /* Medium devices (desktops, 992px and down) */
 
-@media (max-width: 910px) {}
-
+@media (max-width: 910px) {
+}
 
 /* Medium devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {}
-
+@media (min-width: 992px) {
+}
 
 /* Large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
-
+@media (min-width: 1200px) {
+}
 
 /* RESPONSIVE END */
 
