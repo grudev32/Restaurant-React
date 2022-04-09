@@ -199,17 +199,15 @@ ID: 220190661
 */
 .about-route{
     height: 100%;
-    margin: 0;
-    display: flex;
     justify-content: center;
+    display: flex;
 }
 
 .container {
     width: 1356px;
     background-color: #8CA206;
-    display: flex;
-    align-items: center;
     flex-flow: column;
+    display: flex;
 }
 
 /* start scroll */
@@ -233,27 +231,6 @@ ID: 220190661
 }
 /* end scroll */
 
-/* start button */
-.Up {
-    width: 8%;
-    height: 10%;
-    font-size: 40px;
-    top: 86%;
-    left: 91%;
-    z-index: 1;
-    display: none;
-    position: fixed;
-    background-color: #647400;
-    border-radius: 25%;
-    border: #061a0e solid 2px;
-}
-/* button on hover */
-.Up:hover {
-    cursor: pointer;
-    color: rgb(133, 231, 4);
-}
-/* end button  */
-
 .part {
     width: 1356px;
     height: 630px;
@@ -261,20 +238,20 @@ ID: 220190661
 }
 
 .one div.about {
-    background: linear-gradient(161deg, white 50%, transparent 50%);
     width: 1356px;
     height: 510px;
+    background: linear-gradient(161deg, white 50%, transparent 50%);
+    z-index: 1;
     top: -22px;
     position: absolute;
-    z-index: 1;
 }
 
 div.about p {
     color: #434343;
     font-weight: Bold;
     font-size: 112px;
-    top: -200px;
-    left: 68px;
+    top: 140px;
+    left: 70px;
     position: absolute;
 }
 
@@ -288,37 +265,33 @@ div.about p {
 
 .two {
     background-color: #8CA206;
-    position: relative;
     top: -162px;
-    display: inline-block;
+    position: relative;
     z-index: 1;
-    overflow: hidden;
 }
 
 .two p.WhyUs {
+    width: 400px;
     color: #434343;
     font-weight: Bold;
     font-size: 80px;
+    top: 30px;
+    left: 70px;
     position: relative;
-    top: -172px;
-    margin-top: 55px;
-    margin-left: 70px;
-    width: 400px;
-    display: inline-block;
 }
 
 .two p.FirstParagraph {
     width: 525px;
     color: #F5F5F5;
-    margin-top: -40px;
-    margin-left: 54px;
+    margin-top: 50px;
+    margin-left: 70px;
     font-size: 29px;
 }
 
 .two p.SecondParagraph {
     width: 610px;
     color: #F5F5F5;
-    margin-top: -425px;
+    margin-top: -460px;
     margin-left: 680px;
     font-size: 29px;
 }
@@ -330,10 +303,9 @@ div.about p {
 }
 
 div.PartThree {
-    margin-top: -290px;
     width: 1356px;
+    margin-top: -290px;
     height: 615px;
-    overflow: hidden;
 }
 
 .FirstImage {
@@ -348,10 +320,9 @@ div.PartThree {
     font-weight: Bold;
     font-size: 112px;
     margin-top: -240px;
-    position: relative;
-    margin-left: 670px;
     left: 700px;
     top: 10px;
+    position: relative;
 }
 
 .PartFour {
@@ -363,18 +334,19 @@ div.PartThree {
 div.cards {
     width: 1356px;
     height: 615px;
-    display: flex;
-    justify-content: space-around;
     background-color: #8CA206;
+    justify-content: space-around;
+    display: flex;
 }
 
 div.card {
-    display: flex;
     background-color: #43434357;
     width: calc(81% / 3);
-    overflow: hidden;
+    opacity: .6;
+    transition: transform 1s .1s ;
     flex-wrap: wrap;
     justify-content: center;
+    display: flex;
 }
 
 div.card img {
@@ -393,6 +365,12 @@ div.country {
 
 div.card.Three div.name {
     font-size: 50px;
+}
+
+div.card:hover{
+    z-index: 1;
+    opacity: 1;
+    transform: scale(.9);
 }
 
 div.PartFive {

@@ -5,10 +5,8 @@ ID: 220190661
 import React from "react";
 const AboutUs = () => {
     return (
-        
         <section className="about-route">
             <div className="container">
-                <button className="Up"> Up </button>
                 <div className="part one">
                     <div className="about">
                         <p>
@@ -60,45 +58,7 @@ const AboutUs = () => {
                     <img src="https://images.adsttc.com/media/images/5e4c/1025/6ee6/7e0b/9d00/0877/large_jpg/feature_-_Main_hall_1.jpg?1582043123" alt="photo3"/>
                 </div>
             </div>
-
-        <script>
-        let pDown = document.querySelector('div.about p');
-        let pWhyUs = document.querySelector("div.two p.WhyUs");
-        let pOurTeam = document.querySelector(".PartThree p")
-        let buttonUp = document.querySelector('.Up');
-            
-            window.onload = function () {
-                pDown.style.top = '60px',
-                pDown.style.transition = '2s',
-                pWhyUs.style.top = '0px',
-                pWhyUs.style.transition = '2s',
-                pOurTeam.style.transition = '2s'
-                };
-            
-            buttonUp.onclick = function () {
-                window.scrollTo({
-                    left: 0,
-                    top: 0,
-                    behavior:"smooth"
-                })
-                };
-            
-            window.onscroll = function () {
-                if (window.scrollY > 460) {
-                    buttonUp.style.display = "block"
-                }
-                else {
-                buttonUp.style.display = 'none'
-                }
-                if (window.scrollY > 950) {
-                pOurTeam.style.left = '0px'
-                }
-            }
-            
-        <script></script>
-        </script>
         </section>
     );
 };
-
 export default AboutUs;
