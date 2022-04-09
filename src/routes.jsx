@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch , Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./components/home";
 import PestoMenu from "./components/pesto-menu";
@@ -10,18 +10,23 @@ import ContactUs from "./components/contact-us";
 import Login from "./components/login";
 import Register from "./components/register";
 
+import ScrollRouteToTop from "./components/global/route-default-scroll";
+
 const routes = () => {
     return (
-        <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/pesto-menu" component={PestoMenu} />
+        <BrowserRouter>
+            <ScrollRouteToTop />
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/pesto-menu" component={PestoMenu} />
 
-            <Route exact path="/about-us" component={AboutUs} />
-            <Route exact path="/contact-us" component={ContactUs} />
-            
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/register" component={Register} />
-        </Switch>
+                <Route exact path="/about-us" component={AboutUs} />
+                <Route exact path="/contact-us" component={ContactUs} />
+
+                <Route exact path="/login" component={Login} />
+                <Route exact path="/register" component={Register} />
+            </Switch>
+        </BrowserRouter>
     );
 };
 
