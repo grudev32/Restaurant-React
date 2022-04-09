@@ -4,6 +4,10 @@ import { NavLink, useHistory } from "react-router-dom";
 
 import LogoImage from "../../resources/Logo/Logo-07.png";
 
+/* 
+Name: Henry Azer
+ID: 220190314
+*/
 const Header = (props) => {
     const history = useHistory();
 

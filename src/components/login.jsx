@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { useHistory } from "react-router-dom";
 
@@ -7,11 +7,18 @@ import PizzaImage from "../resources/Logo/Pizza.png";
 import PastaImage from "../resources/Logo/Pasta.png";
 import BackgroundImage from "../resources/backgrounds/Background.png";
 
+/* 
+Name: Andrew Nashaat
+ID: 220190120
+*/
 function Login() {
     const history = useHistory();
 
+    useEffect(() => {
+        document.title = "Login | Pesto Menu";
+    });
+
     return (
-        // Andrew Nashaat
         <section className="login-route">
             <img
                 className="Logo"

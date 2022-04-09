@@ -10,6 +10,10 @@ const IMAGE_PARTS = 4;
 let changeSliderTo = null;
 const SLIDER_CHANGE_TIME = 4000;
 
+/* 
+Name: Henry Azer
+ID: 220190314
+*/
 const HomeSlider = (props) => {
     const history = useHistory();
 

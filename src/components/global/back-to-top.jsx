@@ -2,6 +2,10 @@ import React, { useEffect } from "react";
 
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
+/* 
+Name: Henry Azer
+ID: 220190314
+*/
 const BackToTop = () => {
     useEffect(() => {
         document.addEventListener("scroll", () => {

@@ -1,4 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Header from "./global/header";
+import Footer from "./global/footer";
+import BackToTop from "./global/back-to-top";
 
 import {
     FaFacebookF,
@@ -7,9 +11,19 @@ import {
     FaMapMarkerAlt,
 } from "react-icons/fa";
 
+/* 
+Name: Martina Kamal
+ID: 220190173
+*/
 const ContactUs = () => {
+    useEffect(() => {
+        document.title = "Contact Us | Pesto Menu";
+    });
+
     return (
         <section className="contact-route">
+            <Header />
+            <BackToTop />
             <div class="Container-1">
                 <div class="Form-1">
                     <div class="Title">
@@ -100,6 +114,7 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </section>
     );
 };

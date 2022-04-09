@@ -11,6 +11,10 @@ import {
     FaPhoneAlt,
 } from "react-icons/fa";
 
+/* 
+Name: Henry Azer
+ID: 220190314
+*/
 const Footer = () => {
     return (
         <section className="footer-section">

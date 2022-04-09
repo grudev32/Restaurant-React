@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { useHistory } from "react-router-dom";
 
@@ -7,8 +7,16 @@ import PizzaImage from "../resources/images/Pizza.png";
 import PastaImage from "../resources/images/Pasta.png";
 import BackgroundImage from "../resources/backgrounds/Background.jpg";
 
+/* 
+Name: Alber Ashraf
+ID: 220190120
+*/
 const Register = () => {
     const history = useHistory();
+
+    useEffect(() => {
+        document.title = "Register | Pesto Menu";
+    });
 
     return (
         <section className="register-route">
