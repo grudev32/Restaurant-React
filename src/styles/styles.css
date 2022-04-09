@@ -728,7 +728,196 @@ body {
 
 
 /* ABOUT US START */
+/* 
+Name: Walid Salah Waliam
+ID: 220190661
+*/
+.about-route{
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
 
+.container {
+    width: 1356px;
+    background-color: #8CA206;
+    flex-flow: column;
+    display: flex;
+}
+
+/* start scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* thumb */
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #647400;
+    ;
+}
+/* thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(133, 231, 4);
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #061a0e;
+}
+/* end scroll */
+
+.part {
+    width: 1356px;
+    height: 630px;
+    position: relative;
+}
+
+.one div.about {
+    width: 1356px;
+    height: 510px;
+    background: linear-gradient(161deg, white 50%, transparent 50%);
+    z-index: 1;
+    top: -22px;
+    position: absolute;
+}
+
+div.about p {
+    color: #434343;
+    font-weight: Bold;
+    font-size: 112px;
+    top: 140px;
+    left: 70px;
+    position: absolute;
+}
+
+.one img {
+    width: 1356px;
+    height: 630px;
+    opacity: .4;
+    top: -115px;
+    position: relative;
+}
+
+.two {
+    background-color: #8CA206;
+    top: -162px;
+    position: relative;
+    z-index: 1;
+}
+
+.two p.WhyUs {
+    width: 400px;
+    color: #434343;
+    font-weight: Bold;
+    font-size: 80px;
+    top: 30px;
+    left: 70px;
+    position: relative;
+}
+
+.two p.FirstParagraph {
+    width: 525px;
+    color: #F5F5F5;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 29px;
+}
+
+.two p.SecondParagraph {
+    width: 610px;
+    color: #F5F5F5;
+    margin-top: -460px;
+    margin-left: 680px;
+    font-size: 29px;
+}
+
+.two p.FirstParagraph::selection,
+.two p.SecondParagraph::selection {
+    background-color: #434343;
+    color: #8CA206;
+}
+
+div.PartThree {
+    width: 1356px;
+    margin-top: -290px;
+    height: 615px;
+}
+
+.FirstImage {
+    width: 1356px;
+    height: 615px;
+    opacity: .4;
+    clip-path: polygon(100% 21%, 0 0, 0 100%);
+}
+
+.PartThree p {
+    color: #434343;
+    font-weight: Bold;
+    font-size: 112px;
+    margin-top: -240px;
+    left: 700px;
+    top: 10px;
+    position: relative;
+}
+
+.PartFour {
+    width: 1356px;
+    height: 615px;
+    background-color: #8CA206;
+}
+
+div.cards {
+    width: 1356px;
+    height: 615px;
+    background-color: #8CA206;
+    justify-content: space-around;
+    display: flex;
+}
+
+div.card {
+    background-color: #43434357;
+    width: calc(81% / 3);
+    opacity: .6;
+    transition: transform 1s .1s ;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+div.card img {
+    width: 370px;
+    height: 330px;
+}
+
+div.name {
+    font-size: 60px;
+}
+
+div.country {
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+div.card.Three div.name {
+    font-size: 50px;
+}
+
+div.card:hover{
+    z-index: 1;
+    opacity: 1;
+    transform: scale(.9);
+}
+
+div.PartFive {
+    width: 1356px;
+    height: 615px;
+}
+
+div.PartFive img {
+    width: 1356px;
+    height: 615px;
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+}
 
 /* ABOUT US END */
 
