@@ -540,7 +540,178 @@ body {
 
 
 /* MENU START */
+.menu-route .menu-title {
+  display: block;
+  height: 700px;
+  background-color: #f5f5f5;
+}
+.pizza-image {
+  width: 1500px;
+  height: 600px;
+  position: relative;
+  bottom: 1px;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  opacity: 0.4;
+}
 
+.menu-route {
+  background-color: #434343;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: corbel;
+}
+.menu-route .heading {
+  text-align: center;
+  font-size: 100px;
+  color: #434343;
+  font-weight: bold;
+  font-family: Bell MT;
+  margin-bottom: 50px;
+}
+.menu-route .p {
+  text-align: center;
+  color: #c5d201;
+  font-size: 40px;
+  position: relative;
+  bottom: 50px;
+}
+.pizza {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px 500px;
+  text-align: center;
+  margin-left: 235px;
+}
+.pasta {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px 500px;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-left: 250px;
+  padding-top: 200px;
+}
+.menu {
+  color: #f5f5f5;
+}
+.margherita {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  margin-top: 20px;
+}
+.marinara {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.diavola {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.quattro {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.carbonara {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  margin-top: 20px;
+}
+.alfredo {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  margin-top: 20px;
+}
+.bolognese {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  margin-top: 20px;
+}
+.arrabbiata {
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  margin-top: 20px;
+}
+.menu-group-pizza {
+  position: relative;
+  bottom: 400px;
+  left: 100px;
+}
+.menu-group-pasta {
+  text-align: right;
+  position: relative;
+  bottom: 100px;
+  right: 100;
+}
+.pasta-image {
+  width: 1500px;
+  height: 600px;
+  opacity: 0.4;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  position: relative;
+  top: 105px;
+  margin-left: 20px;
+}
+.pasta-menu-item {
+  border: 1px solid #f5f5f5;
+  background-color: #434343;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-menu-item {
+  border: 1px solid #f5f5f5;
+  background-color: #434343;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.menu-group-pizza {
+  font-size: 90px;
+  font-family: Bell MT;
+}
+.menu-group-pasta {
+  font-size: 90px;
+  font-family: Bell MT;
+  position: relative;
+  right: 100px;
+}
+.pizza-image-background {
+  background-color: black;
+  width: 1500px;
+  height: 600px;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  position: relative;
+  bottom: 110px;
+}
+.menu-item-name {
+  font-size: 40px;
+}
+.pizza-discreption {
+  font-size: 18px;
+}
+.pasta-discreption {
+  font-size: 18px;
+}
+.price {
+  font-size: 20px;
+}
 
 /* MENU END */
 
