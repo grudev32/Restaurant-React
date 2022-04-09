@@ -54,8 +54,8 @@ const Home = () => {
             <HomeSlider className="home-slider" slides={slides} />
 
             <div className="home-special">
-                <img src={PizzaImage} alt="Pizza" className="pizza-image" />
-                <img src={PastaImage} alt="Pasta" className="pasta-image" />
+                <img src={PizzaImage} alt="Pizza" className="home-pizza-image" />
+                <img src={PastaImage} alt="Pasta" className="home-pasta-image" />
 
                 <div className="special-text">
                     <h1 className="special-title title">
@@ -154,7 +154,7 @@ const Home = () => {
                         />
                         <div className="offer-text">
                             <h1 className="pizza-title offer-title title">
-                                <span className="two">2</span> Pizza
+                                <span className="number-two">2</span> Pizza
                             </h1>
                             <h1 className="old-price">40$</h1>
                             <h1 className="new-price">30$</h1>
@@ -168,7 +168,7 @@ const Home = () => {
                         />
                         <div className="offer-text">
                             <h1 className="pasta-title offer-title title">
-                                <span className="two">2</span> Pasta
+                                <span className="number-two">2</span> Pasta
                             </h1>
                             <h1 className="old-price">50$</h1>
                             <h1 className="new-price">40$</h1>

@@ -251,22 +251,6 @@ body {
     position: relative;
 }
 
-.wooden-background .try-pizza-text {
-    position: absolute;
-}
-
-.wooden-background .wooden-background_image {
-    width: 1220px;
-}
-
-.wooden-background .pesto-pizza-img {
-    width: 600px;
-    position: absolute;
-    z-index: 1;
-    left: -100px;
-    top: 200px;
-}
-
 /* -------------------------------------------------- */
 
 .home-route .home-special {
@@ -276,7 +260,7 @@ body {
     margin: 120px 0;
 }
 
-.home-special .pizza-image {
+.home-special .home-pizza-image {
     width: 300px;
     filter: blur(2px);
     -webkit-filter: blur(2px);
@@ -285,7 +269,7 @@ body {
     top: -100px;
 }
 
-.home-special .pasta-image {
+.home-special .home-pasta-image {
     width: 350px;
     filter: blur(2px);
     -webkit-filter: blur(2px);
@@ -420,7 +404,7 @@ body {
     font-weight: lighter;
 }
 
-.offer-title .two {
+.offer-title .number-two {
     color: #8ca206;
 }
 
