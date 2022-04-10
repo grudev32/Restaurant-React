@@ -38,7 +38,7 @@ const Register = () => {
                 <p className="paragraph1">
                     That's from our glad to be a part of our family
                 </p>
-                <form className="Input">
+                <form className="input-form">
                     <input
                         className="input"
                         type="text"
@@ -67,13 +67,13 @@ const Register = () => {
                         required
                     />
                     <br />
-                    <input className="Button" type="submit" value="Sign up" />
+                    <input className="btn btn-1" type="submit" value="Sign up" />
                 </form>
 
                 <div className="form2">
                     <p>Are you already a part of our family ..?</p>
                     <input
-                        className="Button"
+                        className="btn btn-1"
                         type="submit"
                         value="Log In"
                         onClick={() => history.push("/login")}

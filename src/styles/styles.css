@@ -48,10 +48,10 @@ body {
 .btn {
     border: none;
     padding: 20px 40px;
+    width: 200px;
     font-size: 20px;
     border-radius: 35px;
-    margin: 20px;
-    text-decoration: none;
+    margin: 10px;
     color: #f5f5f5;
 }
 
@@ -239,16 +239,6 @@ body {
 
 .home-route {
     background-color: #f5f5f5;
-}
-
-.home-route .try-pizza-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.try-pizza-section .wooden-background {
-    position: relative;
 }
 
 /* -------------------------------------------------- */
@@ -537,6 +527,7 @@ body {
     display: block;
     height: 700px;
     background-color: #f5f5f5;
+    padding-top: 120px;
 }
 .pizza-image {
     width: 1500px;
@@ -569,14 +560,14 @@ body {
     position: relative;
     bottom: 50px;
 }
-.pizza {
+.pizza-section {
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 500px 500px;
     text-align: center;
     margin-left: 235px;
 }
-.pasta {
+.pasta-section {
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 500px 500px;
@@ -746,6 +737,13 @@ body {
     width: 190px;
 }
 
+.login-route .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .login-route .input-box {
     display: block;
     margin-left: auto;
@@ -754,27 +752,9 @@ body {
     border-style: none;
     outline: none;
     margin-top: 50px;
-    padding: 12px;
+    padding: 20px;
     width: 430px;
     height: 20px;
-}
-
-.login-route .button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
-    border-style: none;
-    text-align: center;
-    outline: none;
-    width: 200px;
-    height: 43px;
-    margin-top: 10px;
-    background-color: #8ca206;
-    color: #f5f5f5;
-    font-family: corbel;
-    font-size: 25px;
-    cursor: pointer;
 }
 
 .login-route p {
@@ -841,33 +821,23 @@ body {
     color: #f5f5f5;
 }
 
-.register-route input {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: none;
-    outline: none;
-    border-radius: 100px;
-    margin-top: 20px;
+.register-route .input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
 }
 
 .register-route .input {
-    width: 400px;
-    height: 25px;
-    padding: 15px;
-    padding-left: 30px;
+    border: none;
+    padding: 10px 25px;
     font-size: 20px;
-    color: #434343;
-}
-
-.register-route .Button {
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    font-size: 25px;
-    color: #f5f5f5;
-    background-color: #8ca206;
-    cursor: pointer;
+    font-weight: lighter;
+    margin: 15px;
+    border-radius: 35px;
+    width: 800px;
+    height: 40px;
+    
 }
 
 .register-route .form2 {
@@ -1242,24 +1212,19 @@ div.PartFive img {
 
 .lines-form div input,
 .lines-form div textarea {
-    border-radius: 5px;
-    padding: 5px 10px;
-    outline: none;
-}
-
-.Form-4 .button {
-    background-color: #8ca206;
-    color: #f5f5f5;
-    font-size: 30px;
-    padding: 5px 10px;
-    margin: 10px 0;
-    border-radius: 10px;
-    outline: none;
+    resize: none;
+    height: 435px;
+    width: 375px;
+    border-radius: 35px;
+    padding: 10px 25px;   
+    border: none;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 15px;
 }
 
 .Form-4 input[type="text"] {
-    height: 35px;
-    width: 375px;
+    height: 40px;
 }
 
 /* CONTACT US END */

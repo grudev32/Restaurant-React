@@ -34,7 +34,7 @@ function Login() {
                 alt="register-background"
             />
             <p> Don't miss a delicious meal...</p>
-            <form action="" method="get">
+            <form action="" method="get" className="login-form">
                 <input
                     type="email"
                     class="input-box"
@@ -46,14 +46,14 @@ function Login() {
                     placeholder="Password"
                 />
                 <br />
-                <button type="submit" class="button">
+                <button type="submit" className="btn btn-1">
                     Login
                 </button>
                 <br /> <br />
                 <p> Do you want to join our family..?</p>
                 <button
                     type="submit"
-                    class="button"
+                    className="btn btn-1"
                     onClick={() => history.push("/register")}
                 >
                     Sign up
