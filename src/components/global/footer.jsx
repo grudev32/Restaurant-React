@@ -38,7 +38,7 @@ const Footer = () => {
                             className="social-icon"
                             onClick={() =>
                                 window.open(
-                                    "https://www.facebook.com/HeNaRyAzEr",
+                                    "https://www.facebook.com",
                                     "_blank"
                                 )
                             }
@@ -47,7 +47,7 @@ const Footer = () => {
                             className="social-icon"
                             onClick={() =>
                                 window.open(
-                                    "https://wa.me/201207885279",
+                                    "https://www.whatsapp.com",
                                     "_blank"
                                 )
                             }
@@ -56,7 +56,7 @@ const Footer = () => {
                             className="social-icon"
                             onClick={() =>
                                 window.open(
-                                    "https://github.com/Henry-Azer",
+                                    "https://github.com/Henry-Azer/Pesto-Restaurant-React",
                                     "_blank"
                                 )
                             }
@@ -65,7 +65,7 @@ const Footer = () => {
                             className="social-icon"
                             onClick={() =>
                                 window.open(
-                                    "https://www.linkedin.com/in/henry-azer-1220121a7",
+                                    "https://www.linkedin.com",
                                     "_blank"
                                 )
                             }
@@ -74,7 +74,7 @@ const Footer = () => {
                             className="social-icon"
                             onClick={() =>
                                 window.open(
-                                    "mailto:henryazer@outlook.com",
+                                    "https://outlook.live.com",
                                     "_blank"
                                 )
                             }
@@ -82,7 +82,10 @@ const Footer = () => {
                         <FaPhoneAlt
                             className="social-icon"
                             onClick={() =>
-                                window.open("tel:+201207885279", "_blank")
+                                window.open(
+                                    "https://www.truecaller.com",
+                                    "_blank"
+                                )
                             }
                         />
                     </div>

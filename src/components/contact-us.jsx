@@ -40,19 +40,51 @@ const ContactUs = () => {
                         <div class="line-1"></div>
                         <div class="lines-form">
                             <div>
-                                <FaPhoneAlt className="form-icon" />
+                                <FaPhoneAlt
+                                    className="form-icon"
+                                    onClick={() =>
+                                        window.open(
+                                            "https://www.truecaller.com",
+                                            "_blank"
+                                        )
+                                    }
+                                />
                                 <span>199911</span>
                             </div>
                             <div>
-                                <FaMapMarkerAlt className="form-icon" />
+                                <FaMapMarkerAlt
+                                    className="form-icon"
+                                    onClick={() =>
+                                        window.open(
+                                            "https://www.truecaller.com",
+                                            "_blank"
+                                        )
+                                    }
+                                />
                                 <span>12 Hegaz st., Egypt , Cairo</span>
                             </div>
                             <div>
-                                <FaFacebookF className="form-icon" />
+                                <FaFacebookF
+                                    className="form-icon"
+                                    onClick={() =>
+                                        window.open(
+                                            "https://www.google.com/maps",
+                                            "_blank"
+                                        )
+                                    }
+                                />
                                 <span>pesto</span>
                             </div>
                             <div>
-                                <FaInstagram className="form-icon" />
+                                <FaInstagram
+                                    className="form-icon"
+                                    onClick={() =>
+                                        window.open(
+                                            "https://www.instagram.com/",
+                                            "_blank"
+                                        )
+                                    }
+                                />
                                 <span>Pesto</span>
                             </div>
                         </div>
