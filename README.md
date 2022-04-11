@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Henry-Azer/Project-Name.git
+   git clone https://github.com/Henry-Azer/Pesto-Restaurant-React.git
    ```
 2. Install NPM packages
    ```sh
