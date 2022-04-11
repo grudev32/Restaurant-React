@@ -17,8 +17,8 @@ const AboutUs = () => {
         <section className="about-route">
             <Header />
             <BackToTop />
-            <div className="container">
-                <div className="part one">
+            <div className="about-us-container">
+                <div className="aboutSection">
                     <div className="about">
                         <p>About Us</p>
                     </div>
@@ -27,7 +27,7 @@ const AboutUs = () => {
                         alt="photo1"
                     />
                 </div>
-                <div className="part two">
+                <div className="whyUsSection">
                     <p className="WhyUs">Why Us ..?</p>
                     <p className="FirstParagraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -55,7 +55,7 @@ const AboutUs = () => {
                         quibusdam. Non rerum optio praesentium ullam!
                     </p>
                 </div>
-                <div className="PartThree">
+                <div className="ourTeamSection">
                     <img
                         className="FirstImage"
                         src="https://lalocanda.co.uk/wp-content/uploads/2021/11/La-Locanda-Chef-Patron-Maurizio-Bocchi.jpg"
@@ -63,7 +63,7 @@ const AboutUs = () => {
                     />
                     <p>Our Team</p>
                 </div>
-                <div className="PartFour">
+                <div className="cardsSection">
                     <div className="cards">
                         <div className="card One">
                             <img
@@ -91,7 +91,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="PartFive">
+                <div className="lastSection">
                     <img
                         src="https://images.adsttc.com/media/images/5e4c/1025/6ee6/7e0b/9d00/0877/large_jpg/feature_-_Main_hall_1.jpg?1582043123"
                         alt="photo3"

@@ -860,54 +860,34 @@ body {
 Name: Walid Salah Waliam
 ID: 220190661
 */
-.container {
-    width: 1356px;
+
+.about-us-container {
     margin: 0 auto;
     background-color: #8ca206;
     flex-flow: column;
-    display: flex;
     height: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-/* start scroll */
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-/* thumb */
-::-webkit-scrollbar-thumb {
-    border-radius: 20px;
-    background: #647400;
-}
-/* thumb on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(133, 231, 4);
-}
-/* Track */
-::-webkit-scrollbar-track {
-    background: #061a0e;
-}
-/* end scroll */
-
-.part {
-    width: 1356px;
+.aboutSection {
     height: 630px;
+    width: 100%;
     position: relative;
 }
 
-.one div.about {
-    width: 1356px;
+.aboutSection div.about {
     height: 510px;
-    background: linear-gradient(161deg, white 50%, transparent 50%);
+    background: linear-gradient(163.5deg, #F5F5F5 50%, transparent 50%);
     z-index: 1;
-    top: -22px;
+    top: 5px;
     position: absolute;
+    width: 100%;
 }
 
-div.about p {
+.about p {
     color: #434343;
     font-weight: Bold;
     font-size: 112px;
@@ -916,88 +896,93 @@ div.about p {
     position: absolute;
 }
 
-.one img {
-    width: 1356px;
+.aboutSection img {
     height: 630px;
     opacity: 0.4;
     top: -115px;
     position: relative;
+    width: 100%;
 }
 
-.two {
+.whyUsSection {
     background-color: #8ca206;
     top: -162px;
     position: relative;
     z-index: 1;
+    height: 630px;
+    width: 100%;
 }
 
-.two p.WhyUs {
-    width: 400px;
+.whyUsSection p.WhyUs {
     color: #434343;
     font-weight: Bold;
     font-size: 80px;
     top: 30px;
     left: 70px;
     position: relative;
+    width: 100%;
 }
 
-.two p.FirstParagraph {
+.whyUsSection p.FirstParagraph {
     width: 525px;
     color: #f5f5f5;
-    margin-top: 50px;
-    margin-left: 70px;
     font-size: 29px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
 }
 
-.two p.SecondParagraph {
+.whyUsSection p.SecondParagraph {
     width: 610px;
     color: #f5f5f5;
-    margin-top: -460px;
-    margin-left: 680px;
     font-size: 29px;
+    position: absolute;
+    top: 44px;
+    left: 720px;
 }
 
-.two p.FirstParagraph::selection,
-.two p.SecondParagraph::selection {
+.whyUsSection p.FirstParagraph::selection,
+.whyUsSection p.SecondParagraph::selection {
     background-color: #434343;
     color: #8ca206;
 }
 
-div.PartThree {
-    width: 1356px;
+div.ourTeamSection {
     margin-top: -290px;
     height: 615px;
+    width: 100%;
 }
 
 .FirstImage {
-    width: 1356px;
     height: 615px;
     opacity: 0.4;
     clip-path: polygon(100% 21%, 0 0, 0 100%);
+    width: 100%;
 }
 
-.PartThree p {
+.ourTeamSection p {
     color: #434343;
     font-weight: Bold;
     font-size: 112px;
     margin-top: -240px;
-    left: 700px;
-    top: 10px;
+    left: 57%;
+    top: 1%;
     position: relative;
+    width: 100%;
 }
 
-.PartFour {
-    width: 1356px;
+.cardsSection {
     height: 615px;
     background-color: #8ca206;
+    width: 100%;
 }
 
 div.cards {
-    width: 1356px;
-    height: 615px;
+    height: 515px;
     background-color: #8ca206;
     justify-content: space-around;
     display: flex;
+    width: 100%;
 }
 
 div.card {
@@ -1008,24 +993,43 @@ div.card {
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
+    opacity: .5;
+    transition: transform 1s ;
+}
+
+div.card:hover {
+    transform: scale(.9);
+    opacity: 1;
 }
 
 div.card img {
-    width: 370px;
     height: 330px;
+    width: 100%;
 }
 
 div.name {
     font-size: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.country {
     font-size: 60px;
     margin-top: -30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.card.Three div.name {
     font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.card:hover {
@@ -1034,15 +1038,15 @@ div.card:hover {
     transform: scale(0.9);
 }
 
-div.PartFive {
-    width: 1356px;
+div.lastSection {
     height: 615px;
+    width: 100%;
 }
 
-div.PartFive img {
-    width: 1356px;
+div.lastSection img {
     height: 615px;
     clip-path: polygon(100% 100%, 100% 0, 0 100%);
+    width: 100%;
 }
 
 /* ABOUT US END */
