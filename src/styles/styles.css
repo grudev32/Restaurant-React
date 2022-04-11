@@ -1,12 +1,9 @@
 /* -------------------------- */
 @font-face {
     font-family: corbel;
-    src: url(http://fonts.cdnfonts.com/css/corbel);
+    src: url("../resources/fonts//CORBEL.TTF");
 }
-@font-face {
-    font-family: Bell-MT;
-    src: url(//db.onlinewebfonts.com/c/bb25f84423b9515a1d475d02d2de6462?family=Bell+MT);
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,12 +44,13 @@ body {
 }
 .btn {
     border: none;
-    padding: 20px 40px;
+    padding: 15px 20px;
     width: 200px;
     font-size: 20px;
     border-radius: 35px;
     margin: 10px;
     color: #f5f5f5;
+    cursor: pointer;
 }
 
 .btn-1 {
@@ -737,7 +735,7 @@ body {
     width: 190px;
 }
 
-.login-route .login-form{
+.login-route .login-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -753,8 +751,10 @@ body {
     outline: none;
     margin-top: 50px;
     padding: 20px;
-    width: 430px;
-    height: 20px;
+    width: 450px;
+    height: 10px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .login-route p {
@@ -764,6 +764,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.login-route .join-family {
     text-align: center;
 }
 
@@ -825,7 +829,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .register-route .input {
@@ -835,9 +839,8 @@ body {
     font-weight: lighter;
     margin: 15px;
     border-radius: 35px;
-    width: 800px;
-    height: 40px;
-    
+    width: 600px;
+    height: 30px;
 }
 
 .register-route .form2 {
@@ -845,7 +848,7 @@ body {
     font-size: 30px;
     font-weight: 100;
     color: #f5f5f5;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 /* REGISTER END */
@@ -1216,7 +1219,7 @@ div.PartFive img {
     height: 435px;
     width: 375px;
     border-radius: 35px;
-    padding: 10px 25px;   
+    padding: 10px 25px;
     border: none;
     font-size: 20px;
     font-weight: lighter;

@@ -38,7 +38,7 @@ const Register = () => {
                 <p className="paragraph1">
                     That's from our glad to be a part of our family
                 </p>
-                <form className="input-form">
+                <form className="input-form" action="">
                     <input
                         className="input"
                         type="text"
@@ -67,7 +67,9 @@ const Register = () => {
                         required
                     />
                     <br />
-                    <input className="btn btn-1" type="submit" value="Sign up" />
+                    <button type="submit" className="btn btn-1">
+                        Sign Up
+                    </button>
                 </form>
 
                 <div className="form2">

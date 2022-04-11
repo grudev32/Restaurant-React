@@ -34,22 +34,28 @@ function Login() {
                 alt="register-background"
             />
             <p> Don't miss a delicious meal...</p>
-            <form action="" method="get" className="login-form">
+            <form className="login-form" action="">
                 <input
                     type="email"
-                    class="input-box"
+                    className="input-box"
                     placeholder="Email Address"
+                    required
                 />
                 <input
                     type="password"
-                    class="input-box"
+                    className="input-box"
                     placeholder="Password"
+                    required
                 />
                 <br />
                 <button type="submit" className="btn btn-1">
                     Login
                 </button>
-                <br /> <br />
+                <br />
+                <br />
+            </form>
+
+            <div className="join-family">
                 <p> Do you want to join our family..?</p>
                 <button
                     type="submit"
@@ -58,8 +64,7 @@ function Login() {
                 >
                     Sign up
                 </button>
-                <br />
-            </form>
+            </div>
         </section>
     );
 }

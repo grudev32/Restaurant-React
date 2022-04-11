@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 
 import Header from "./global/header";
 import Footer from "./global/footer";
@@ -42,7 +42,6 @@ Name: Bavly Ashraf
 ID: 220190354
 */
 const Home = () => {
-
     useEffect(() => {
         document.title = "Home | Pesto Menu";
     });
@@ -54,8 +53,16 @@ const Home = () => {
             <HomeSlider className="home-slider" slides={slides} />
 
             <div className="home-special">
-                <img src={PizzaImage} alt="Pizza" className="home-pizza-image" />
-                <img src={PastaImage} alt="Pasta" className="home-pasta-image" />
+                <img
+                    src={PizzaImage}
+                    alt="Pizza"
+                    className="home-pizza-image"
+                />
+                <img
+                    src={PastaImage}
+                    alt="Pasta"
+                    className="home-pasta-image"
+                />
 
                 <div className="special-text">
                     <h1 className="special-title title">
@@ -186,13 +193,17 @@ const Home = () => {
                         <p className="subscription-text">
                             To know all our daily offers
                         </p>
-                        <form className="subscription-form">
+                        <form className="subscription-form" action="">
                             <input
                                 type="text"
                                 placeholder="Email Address"
                                 className="subscription-input"
+                                required
                             />
-                            <button className="subscription-button btn btn-2">
+                            <button
+                                className="subscription-button btn btn-2"
+                                onClick={(event) => event.preventDefault()}
+                            >
                                 Subscribe
                             </button>
                         </form>
