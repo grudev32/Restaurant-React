@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🍕 Pesto Restaurant
+It is a detailed view of the services and what the restaurant offers and how you can communicate with them and an overview of the latest offers we have and you can follow them moment by moment through our subscription.
 
-## Available Scripts
+## 🚀 Deployment
+https://pesto-restaurant.netlify.app
 
-In the project directory, you can run:
+## 📸 Screenshot
 
-### `npm start`
+![Pesto Restaurant](https://fv9-4.failiem.lv/thumb_show.php?i=jzyjnuf2n&view)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Skills & Packages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React JS
+* JSX
+* ES6
+* MUI
+* CSS
 
-### `npm test`
+## 📋 Features
+- UI Design
+- Single Page Application
+- React Functional Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 📢 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📜 Prerequisites
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💾  Installation
 
-### `npm run eject`
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Henry-Azer/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start NPM Server
+   ```sh
+   npm start
+   ```
+4. Open Local Server to view it in your browser
+   ```sh
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💳 License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📞 Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Outlook - [@Henry Azer](mailto:henryazer@outlook.com)
 
-## Learn More
+LinkedIn - [@Henry Azer](https://www.linkedin.com/in/henry-azer-1220121a7/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✍️ Authors
+* Martina Kamal
+* Henry Azer
+* Bavly Ashraf
+* Alber Ashraf
+* Andrew Nashaat
+* Joseph Emad
+* Waleed Salah
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/Henry-Azer/Pesto-Restaurant-React/graphs/contributors
 
-### Code Splitting
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/Henry-Azer/Pesto-Restaurant-React/network/members
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/Henry-Azer/Pesto-Restaurant-React/stargazers
 
-### Analyzing the Bundle Size
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/Henry-Azer/Pesto-Restaurant-React/issues
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/Henry-Azer/Pesto-Restaurant-React/blob/master/LICENSE.txt
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/henry-azer-1220121a7/
