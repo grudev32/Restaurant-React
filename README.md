@@ -16,12 +16,12 @@ https://pesto-restaurant.netlify.app
 ![Pesto Restaurant](https://fv9-4.failiem.lv/thumb_show.php?i=jzyjnuf2n&view)
 
 ## 🛠 Skills & Packages
-
-* React JS
 * JSX
 * ES6
 * MUI
 * CSS
+* React JS
+* React Hooks
 
 ## 📋 Features
 - UI Design
