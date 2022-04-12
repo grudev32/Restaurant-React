@@ -1,4 +1,5 @@
 /* -------------------------- */
+
 @font-face {
     font-family: corbel;
     src: url("../resources/fonts//CORBEL.TTF");
@@ -10,7 +11,9 @@
     font-family: corbel;
 }
 
+
 /* GLOBAL START */
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -23,18 +26,22 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #f5f5f5;
     overflow-x: hidden;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
+
 :focus {
     outline: none;
 }
+
 .title {
     font-size: 100px;
     font-family: Bell-MT;
 }
+
 .paragraph {
     width: 1100px;
     text-align: justify;
@@ -42,6 +49,7 @@ body {
     font-weight: lighter;
     margin: 0 auto;
 }
+
 .btn {
     border: none;
     padding: 15px 20px;
@@ -56,6 +64,7 @@ body {
 .btn-1 {
     background-color: #8ca206;
 }
+
 .btn-2 {
     background-color: #434343;
 }
@@ -64,16 +73,21 @@ body {
     background-color: #52710b;
     transition: 0.5s;
 }
+
 .btn-2:hover {
     background-color: #232323;
     transition: 0.5s;
 }
 
+
 /* GLOBAL END */
+
 
 /* -------------------------- */
 
+
 /* BACK TO TOP START */
+
 #back-to-top {
     position: fixed;
     text-align: center;
@@ -99,11 +113,16 @@ body {
     color: #f5f5f5;
     right: 0px;
 }
+
+
 /* BACK TO TOP END */
+
 
 /* -------------------------- */
 
+
 /* HEADER START */
+
 .header-sticky {
     position: fixed;
     top: 0;
@@ -112,7 +131,6 @@ body {
     transition: all 0.5s ease;
     animation: smoothScroll 0.6s forwards;
     z-index: 999;
-
     box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
@@ -123,7 +141,6 @@ body {
     width: 100%;
     background-color: #434343;
     z-index: 999;
-
     box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
@@ -159,17 +176,20 @@ body {
     cursor: pointer;
 }
 
+
 /* HEADER END */
+
 
 /* -------------------------- */
 
+
 /* FOOTER START */
+
 .footer-section .footer-wrapper {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-
     box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.75);
@@ -229,15 +249,19 @@ body {
     color: #f5f5f5;
 }
 
+
 /* FOOTER END */
 
+
 /* -------------------------- */
+
 
 /* HOME START */
 
 .home-route {
     background-color: #f5f5f5;
 }
+
 
 /* -------------------------------------------------- */
 
@@ -275,6 +299,7 @@ body {
     margin-bottom: 50px;
     text-align: center;
 }
+
 
 /* -------------------------------------------------- */
 
@@ -321,6 +346,7 @@ body {
 .pesto-desc .desc {
     color: #f5f5f5;
 }
+
 .pesto-desc .desc-2 {
     margin-top: 20px;
 }
@@ -349,6 +375,7 @@ body {
     height: 480px;
     margin: 20px;
 }
+
 
 /* -------------------------------------------------- */
 
@@ -405,6 +432,7 @@ body {
     font-size: 50px;
     color: #8ca206;
 }
+
 
 /* -------------------------------------------------- */
 
@@ -464,6 +492,7 @@ body {
     height: 40px;
 }
 
+
 /* -------------------------------------------------- */
 
 .home-services .services-wrapper {
@@ -516,17 +545,23 @@ body {
     font-weight: 100;
     margin: 20px 0;
 }
+
+
 /* HOME END */
+
 
 /* -------------------------- */
 
+
 /* MENU START */
+
 .menu-route .menu-title {
     display: block;
     height: 700px;
     background-color: #f5f5f5;
     padding-top: 120px;
 }
+
 .pizza-image {
     width: 1500px;
     height: 600px;
@@ -543,6 +578,7 @@ body {
     background-attachment: fixed;
     font-family: corbel;
 }
+
 .menu-route .heading {
     text-align: center;
     font-size: 100px;
@@ -551,6 +587,7 @@ body {
     font-family: Bell MT;
     margin-bottom: 50px;
 }
+
 .menu-route .p {
     text-align: center;
     color: #c5d201;
@@ -558,6 +595,7 @@ body {
     position: relative;
     bottom: 50px;
 }
+
 .pizza-section {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -565,6 +603,7 @@ body {
     text-align: center;
     margin-left: 235px;
 }
+
 .pasta-section {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -574,65 +613,77 @@ body {
     padding-left: 250px;
     padding-top: 200px;
 }
+
 .menu {
     color: #f5f5f5;
 }
+
 .margherita {
     width: 200px;
     height: 200px;
     clip-path: circle();
     margin-top: 20px;
 }
+
 .marinara {
     width: 200px;
     height: 200px;
     margin-top: 20px;
 }
+
 .diavola {
     width: 200px;
     height: 200px;
     margin-top: 20px;
 }
+
 .quattro {
     width: 200px;
     height: 200px;
     margin-top: 20px;
 }
+
 .carbonara {
     width: 200px;
     height: 200px;
     clip-path: circle();
     margin-top: 20px;
 }
+
 .alfredo {
     width: 200px;
     height: 200px;
     clip-path: circle();
     margin-top: 20px;
 }
+
 .bolognese {
     width: 200px;
     height: 200px;
     clip-path: circle();
     margin-top: 20px;
 }
+
 .arrabbiata {
     width: 200px;
     height: 200px;
     clip-path: circle();
     margin-top: 20px;
 }
+
 .menu-group-pizza {
     position: relative;
     bottom: 400px;
     left: 100px;
 }
+
 .menu-group-pasta {
     text-align: right;
     position: relative;
     bottom: 100px;
     right: 100;
 }
+
 .pasta-image {
     width: 1500px;
     height: 600px;
@@ -642,6 +693,7 @@ body {
     top: 105px;
     margin-left: 20px;
 }
+
 .pasta-menu-item {
     border: 1px solid #f5f5f5;
     background-color: #434343;
@@ -653,6 +705,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .pizza-menu-item {
     border: 1px solid #f5f5f5;
     background-color: #434343;
@@ -664,16 +717,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .menu-group-pizza {
     font-size: 90px;
     font-family: Bell MT;
 }
+
 .menu-group-pasta {
     font-size: 90px;
     font-family: Bell MT;
     position: relative;
     right: 100px;
 }
+
 .pizza-image-background {
     background-color: black;
     width: 1500px;
@@ -682,24 +738,32 @@ body {
     position: relative;
     bottom: 110px;
 }
+
 .menu-item-name {
     font-size: 40px;
 }
+
 .pizza-discreption {
     font-size: 18px;
 }
+
 .pasta-discreption {
     font-size: 18px;
 }
+
 .price {
     font-size: 20px;
 }
 
+
 /* MENU END */
+
 
 /* -------------------------- */
 
+
 /* LOGIN START */
+
 
 /*Andrew Nashaat*/
 
@@ -771,9 +835,12 @@ body {
     text-align: center;
 }
 
+
 /* LOGIN END */
 
+
 /* -------------------------- */
+
 
 /* REGISTER START */
 
@@ -851,11 +918,16 @@ body {
     margin-top: 30px;
 }
 
+
 /* REGISTER END */
+
 
 /* -------------------------- */
 
+
 /* ABOUT US START */
+
+
 /* 
 Name: Walid Salah Waliam
 ID: 220190661
@@ -994,7 +1066,7 @@ div.card {
     justify-content: center;
     display: flex;
     opacity: .5;
-    transition: transform 1s ;
+    transition: transform 1s;
 }
 
 div.card:hover {
@@ -1049,23 +1121,23 @@ div.lastSection img {
     width: 100%;
 }
 
+
 /* ABOUT US END */
+
 
 /* -------------------------- */
 
+
 /* CONTACT US START */
+
 .Container-1 {
     display: flex;
     text-align: center;
     justify-content: center;
-    height: 170vh;
-    margin: 0;
+    height: 150vh;
+    padding: 60px 0;
     background-color: #434343;
-    background-image: linear-gradient(
-            rgba(67, 67, 67, 1),
-            rgba(67, 67, 67, 0.5)
-        ),
-        url(../resources/images/Pasta.png);
+    background-image: linear-gradient( rgba(67, 67, 67, 1), rgba(67, 67, 67, 0.5)), url(../resources/images/Pasta.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 900px;
@@ -1087,7 +1159,7 @@ div.lastSection img {
     justify-content: center;
     font-size: 60px;
     color: #8ca206;
-    margin: 50px;
+    margin: 30px 0;
 }
 
 .Form-1 .Head-Text {
@@ -1106,7 +1178,7 @@ div.lastSection img {
     background-color: #f5f5f5;
     width: 600px;
     font-size: 25px;
-    margin: 80px;
+    margin: 80px 0;
     margin-bottom: 10px;
     padding: 60px 0;
     font-weight: bold;
@@ -1141,13 +1213,9 @@ div.lastSection img {
     text-align: center;
     justify-content: center;
     height: 190vh;
-    margin: 0;
+    margin: 30px 0;
     background-color: #f5f5f5;
-    background-image: linear-gradient(
-            rgba(245, 245, 245, 1),
-            rgba(245, 245, 245, 0.6)
-        ),
-        url(../resources/images/Pizza.png);
+    background-image: linear-gradient( rgba(245, 245, 245, 1), rgba(245, 245, 245, 0.6)), url(../resources/images/Pizza.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 700px;
@@ -1175,13 +1243,11 @@ div.lastSection img {
 .Form-3 .Head-Text .text-1 {
     font-size: 35px;
     color: #434343;
-    margin-top: -13px;
 }
 
 .Form-3 .Head-Text .text-2 {
     font-size: 35px;
     color: #c5d201;
-    margin-top: -13px;
 }
 
 .Container-2 .Form-4 {
@@ -1192,8 +1258,7 @@ div.lastSection img {
     border: 1px solid black;
     background-color: #434343;
     width: 600px;
-    margin: 10px;
-    margin-bottom: 10px;
+    margin: 40px 0;
     padding: 20px 0;
     font-weight: bold;
 }
@@ -1235,49 +1300,60 @@ div.lastSection img {
     height: 40px;
 }
 
+
 /* CONTACT US END */
 
+
 /* -------------------------- */
+
 
 /* RESPONSIVE START */
 
+
 /* Small devices (mobile, 700px and down) */
 
-@media (max-width: 700px) {
-}
+@media (max-width: 700px) {}
+
 
 /* Small devices (tablets, 768px and down) */
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}
+
 
 /* Medium devices (desktops, 992px and down) */
 
-@media (max-width: 910px) {
-}
+@media (max-width: 910px) {}
+
 
 /* Medium devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
-}
+@media (min-width: 992px) {}
+
 
 /* Large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
+
 
 /* RESPONSIVE END */
 
+
 /* -------------------------- */
+
+
 /* KEYFRAMES START */
+
 @keyframes smoothScroll {
     0% {
         transform: translateY(-142px);
     }
-
     100% {
         transform: translateY(0px);
     }
 }
+
+
 /* KEYFRAMES END */
+
+
 /* -------------------------- */
